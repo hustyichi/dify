@@ -1,3 +1,4 @@
+import json
 from typing import Optional
 
 from xinference_client.client.restful.restful_client import Client, RESTfulRerankModelHandle
@@ -54,7 +55,13 @@ class XinferenceRerankModel(RerankModel):
         server_url = server_url.removesuffix("/")
         auth_headers = {"Authorization": f"Bearer {api_key}"} if api_key else {}
 
-        params = {"documents": docs, "query": query, "top_n": top_n, "return_documents": True}
+        params = {
+            "documents": docs,
+            "query": query,
+            "top_n": top_n,
+            "return_documents": True,
+            "kwargs": json.dumps({"normalize": True}),
+        }
         try:
             handle = RESTfulRerankModelHandle(model_uid, server_url, auth_headers)
             response = handle.rerank(**params)
