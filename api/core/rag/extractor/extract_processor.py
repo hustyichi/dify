@@ -4,6 +4,10 @@ from pathlib import Path
 from typing import Union
 from urllib.parse import unquote
 
+from dify_rag.extractor.html_extractor import HtmlExtractor
+from dify_rag.extractor.markdown_extractor import MarkdownExtractor
+from dify_rag.extractor.pdf_extractor import PdfExtractor
+
 from configs import dify_config
 from core.helper import ssrf_proxy
 from core.rag.extractor.csv_extractor import CSVExtractor
@@ -11,10 +15,7 @@ from core.rag.extractor.entity.datasource_type import DatasourceType
 from core.rag.extractor.entity.extract_setting import ExtractSetting
 from core.rag.extractor.excel_extractor import ExcelExtractor
 from core.rag.extractor.firecrawl.firecrawl_web_extractor import FirecrawlWebExtractor
-from core.rag.extractor.html_extractor import HtmlExtractor
-from core.rag.extractor.markdown_extractor import MarkdownExtractor
 from core.rag.extractor.notion_extractor import NotionExtractor
-from core.rag.extractor.pdf_extractor import PdfExtractor
 from core.rag.extractor.text_extractor import TextExtractor
 from core.rag.extractor.unstructured.unstructured_eml_extractor import UnstructuredEmailExtractor
 from core.rag.extractor.unstructured.unstructured_epub_extractor import UnstructuredEpubExtractor
