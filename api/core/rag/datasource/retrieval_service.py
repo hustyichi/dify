@@ -2,6 +2,7 @@ import threading
 from typing import Optional
 
 from flask import Flask, current_app
+from dify_rag.retrieval.strategy import RetrievalPostStrategy
 
 from core.rag.data_post_processor.data_post_processor import DataPostProcessor
 from core.rag.datasource.keyword.keyword_factory import Keyword
@@ -10,6 +11,7 @@ from core.rag.rerank.constants.rerank_mode import RerankMode
 from core.rag.retrieval.retrieval_methods import RetrievalMethod
 from extensions.ext_database import db
 from models.dataset import Dataset
+from patch.core.rag.datasource import retrieval_service as patch_retrieval_service
 
 default_retrieval_model = {
     "search_method": RetrievalMethod.SEMANTIC_SEARCH.value,
@@ -106,6 +108,9 @@ class RetrievalService:
             all_documents = data_post_processor.invoke(
                 query=query, documents=all_documents, score_threshold=score_threshold, top_n=top_k
             )
+
+        doc_ids = set(doc.metadata.get("document_id") for doc in all_documents)
+        all_documents = RetrievalPostStrategy(max_token=1500).reorganize(all_documents, patch_retrieval_service.get_all_documents_by_docuemnt_ids(doc_ids=doc_ids))
         return all_documents
 
     @classmethod
