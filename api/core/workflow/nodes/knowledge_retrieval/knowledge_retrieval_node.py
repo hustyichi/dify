@@ -173,9 +173,11 @@ class KnowledgeRetrievalNode(BaseNode):
         context_list = []
         if all_documents:
             document_score_list = {}
+            document_content_map = {}
             for item in all_documents:
                 if item.metadata.get('score'):
                     document_score_list[item.metadata['doc_id']] = item.metadata['score']
+                    document_content_map[item.metadata['doc_id']] = item.page_content
 
             index_node_ids = [document.metadata['doc_id'] for document in all_documents]
             segments = DocumentSegment.query.filter(
@@ -224,7 +226,10 @@ class KnowledgeRetrievalNode(BaseNode):
                         if segment.answer:
                             source['content'] = f'question:{segment.get_sign_content()} \nanswer:{segment.answer}'
                         else:
-                            source['content'] = segment.get_sign_content()
+                            if segment.index_node_id in document_content_map.keys():
+                                source['content'] = document_content_map.get(segment.index_node_id)
+                            else:
+                                source['content'] = segment.get_sign_content()
                         context_list.append(source)
                         resource_number += 1
         return context_list
