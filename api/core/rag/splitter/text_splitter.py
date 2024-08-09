@@ -15,6 +15,8 @@ from typing import (
     Union,
 )
 
+from dify_rag.splitter.text_splitter import TextSplitter
+
 from core.rag.models.document import BaseDocumentTransformer, Document
 
 logger = logging.getLogger(__name__)
@@ -40,7 +42,7 @@ def _split_text_with_regex(
     return [s for s in splits if (s != "" and s != '\n')]
 
 
-class TextSplitter(BaseDocumentTransformer, ABC):
+class TextSplitterOriginal(BaseDocumentTransformer, ABC):
     """Interface for splitting text into chunks."""
 
     def __init__(
