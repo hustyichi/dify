@@ -1,6 +1,7 @@
 from collections.abc import Sequence
 from typing import Any, Optional
 
+from dify_rag.models.document import Document as DifyDocument
 from sqlalchemy import func
 
 from core.model_manager import ModelManager
@@ -80,7 +81,7 @@ class DatasetDocumentStore:
             )
 
         for doc in docs:
-            if not isinstance(doc, Document):
+            if not (isinstance(doc, Document) or isinstance(doc, DifyDocument)):
                 raise ValueError("doc must be a Document")
 
             segment_document = self.get_document_segment(doc_id=doc.metadata["doc_id"])

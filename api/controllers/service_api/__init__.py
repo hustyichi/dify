@@ -9,3 +9,5 @@ api = ExternalApi(bp)
 from . import index
 from .app import app, audio, completion, conversation, file, message, workflow
 from .dataset import dataset, document, segment
+
+from patch.controllers.service_api.app import supplement
