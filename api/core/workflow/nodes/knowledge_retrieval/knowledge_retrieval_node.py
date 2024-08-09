@@ -189,9 +189,11 @@ class KnowledgeRetrievalNode(BaseNode[KnowledgeRetrievalNodeData]):
         # deal with dify documents
         if dify_documents:
             document_score_list = {}
+            document_content_map = {}
             for item in dify_documents:
                 if item.metadata.get("score"):
                     document_score_list[item.metadata["doc_id"]] = item.metadata["score"]
+                    document_content_map[item.metadata['doc_id']] = item.page_content
 
             index_node_ids = [document.metadata["doc_id"] for document in dify_documents]
             segments = DocumentSegment.query.filter(
@@ -236,7 +238,10 @@ class KnowledgeRetrievalNode(BaseNode[KnowledgeRetrievalNodeData]):
                         if segment.answer:
                             source["content"] = f"question:{segment.get_sign_content()} \nanswer:{segment.answer}"
                         else:
-                            source["content"] = segment.get_sign_content()
+                            if segment.index_node_id in document_content_map:
+                                source['content'] = document_content_map.get(segment.index_node_id)
+                            else:
+                                source["content"] = segment.get_sign_content()
                         retrieval_resource_list.append(source)
         if retrieval_resource_list:
             retrieval_resource_list = sorted(
