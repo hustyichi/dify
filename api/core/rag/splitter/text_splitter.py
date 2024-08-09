@@ -16,6 +16,7 @@ from typing import (
 )
 
 from core.rag.models.document import BaseDocumentTransformer, Document
+from patch.core.rag.splitter import text_splitter as patch_text_splitter
 
 logger = logging.getLogger(__name__)
 
@@ -89,6 +90,7 @@ class TextSplitter(BaseDocumentTransformer, ABC):
                     index = text.find(chunk, index + 1)
                     metadata["start_index"] = index
                 new_doc = Document(page_content=chunk, metadata=metadata)
+                new_doc = patch_text_splitter.polish_document_by_metadata(new_doc)
                 documents.append(new_doc)
         return documents
 
