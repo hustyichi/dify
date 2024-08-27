@@ -8267,6 +8267,11 @@ type = "legacy"
 url = "https://mirrors.aliyun.com/pypi/simple"
 reference = "mirrors"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "pytest-benchmark"
 version = "4.0.0"
