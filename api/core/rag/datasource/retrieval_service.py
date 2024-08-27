@@ -2,14 +2,16 @@ import threading
 from typing import Optional
 
 from flask import Flask, current_app
+from dify_rag.retrieval.document_retrieval import retrieval2reorganize
 
 from core.rag.data_post_processor.data_post_processor import DataPostProcessor
 from core.rag.datasource.keyword.keyword_factory import Keyword
 from core.rag.datasource.vdb.vector_factory import Vector
+from core.rag.models.document import Document
 from core.rag.rerank.constants.rerank_mode import RerankMode
 from core.rag.retrieval.retrival_methods import RetrievalMethod
 from extensions.ext_database import db
-from models.dataset import Dataset
+from models.dataset import Dataset, DocumentSegment
 
 default_retrieval_model = {
     'search_method': RetrievalMethod.SEMANTIC_SEARCH.value,
@@ -21,6 +23,27 @@ default_retrieval_model = {
     'top_k': 2,
     'score_threshold_enabled': False
 }
+
+# dify_rag Retrieval docuemnt
+def get_all_documents_by_docuemnt_ids(doc_ids: list[str]):
+    all_document_map = {}
+    for doc_id in doc_ids:
+        print(doc_id)
+        documents = (
+            db.session.query(DocumentSegment)
+            .filter(DocumentSegment.document_id == doc_id)
+            .order_by(DocumentSegment.position)
+            .all()
+        )
+        all_document_map[doc_id] = [
+            Document(
+                page_content=doc.content,
+                metadata={"document_id": doc.document_id, "position": doc.position},
+            )
+            for doc in documents
+        ]
+    return all_document_map
+
 
 
 class RetrievalService:
@@ -98,6 +121,12 @@ class RetrievalService:
                 score_threshold=score_threshold,
                 top_n=top_k
             )
+
+        doc_ids = set(doc.metadata.get("document_id") for doc in all_documents)
+        all_documents = retrieval2reorganize(all_documents, get_all_documents_by_docuemnt_ids(doc_ids=doc_ids))
+        print("--------------------all_documents")
+        print(all_documents)
+        print("--------------------all_documents")
         return all_documents
 
     @classmethod
