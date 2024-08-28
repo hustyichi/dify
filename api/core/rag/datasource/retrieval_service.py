@@ -28,7 +28,6 @@ default_retrieval_model = {
 def get_all_documents_by_docuemnt_ids(doc_ids: list[str]):
     all_document_map = {}
     for doc_id in doc_ids:
-        print(doc_id)
         documents = (
             db.session.query(DocumentSegment)
             .filter(DocumentSegment.document_id == doc_id)
