@@ -28,7 +28,6 @@ default_retrieval_model = {
 def get_all_documents_by_docuemnt_ids(doc_ids: list[str]):
     all_document_map = {}
     for doc_id in doc_ids:
-        print(doc_id)
         documents = (
             db.session.query(DocumentSegment)
             .filter(DocumentSegment.document_id == doc_id)
@@ -124,9 +123,6 @@ class RetrievalService:
 
         doc_ids = set(doc.metadata.get("document_id") for doc in all_documents)
         all_documents = retrieval2reorganize(all_documents, get_all_documents_by_docuemnt_ids(doc_ids=doc_ids))
-        print("--------------------all_documents")
-        print(all_documents)
-        print("--------------------all_documents")
         return all_documents
 
     @classmethod
