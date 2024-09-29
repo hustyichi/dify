@@ -3,7 +3,6 @@ from typing import Optional
 
 from flask import Flask, current_app
 from dify_rag.retrieval.strategy import RetrievalPostStrategy
-from dify_rag.retrieval.schemas import RetrievalPostType 
 
 from core.rag.data_post_processor.data_post_processor import DataPostProcessor
 from core.rag.datasource.keyword.keyword_factory import Keyword
@@ -111,7 +110,7 @@ class RetrievalService:
             )
 
         doc_ids = set(doc.metadata.get("document_id") for doc in all_documents)
-        all_documents = RetrievalPostStrategy(RetrievalPostType.TITLE_STRUCTURE).reorganize(all_documents, patch_retrieval_service.get_all_documents_by_docuemnt_ids(doc_ids=doc_ids))
+        all_documents = RetrievalPostStrategy(max_token=1500).reorganize(all_documents, patch_retrieval_service.get_all_documents_by_docuemnt_ids(doc_ids=doc_ids))
         return all_documents
 
     @classmethod
