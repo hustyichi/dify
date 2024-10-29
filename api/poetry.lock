@@ -11,6 +11,11 @@ files = [
     {file = "aiohappyeyeballs-2.4.3.tar.gz", hash = "sha256:75cf88a15106a5002a8eb1dab212525c00d1f4c0fa96e551c9fbe6f09a621586"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "aiohttp"
 version = "3.10.5"
@@ -123,6 +128,11 @@ yarl = ">=1.0,<2.0"
 [package.extras]
 speedups = ["Brotli", "aiodns (>=3.2.0)", "brotlicffi"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "aiohttp-retry"
 version = "2.8.3"
@@ -137,6 +147,11 @@ files = [
 [package.dependencies]
 aiohttp = "*"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "aiosignal"
 version = "1.3.1"
@@ -150,6 +165,11 @@ files = [
 
 [package.dependencies]
 frozenlist = ">=1.1.0"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "alembic"
@@ -170,6 +190,11 @@ typing-extensions = ">=4"
 [package.extras]
 tz = ["backports.zoneinfo"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "alibabacloud-credentials"
 version = "0.3.5"
@@ -182,6 +207,11 @@ files = [
 
 [package.dependencies]
 alibabacloud-tea = ">=0.3.9"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "alibabacloud-endpoint-util"
@@ -196,6 +226,11 @@ files = [
 [package.dependencies]
 alibabacloud-tea = ">=0.0.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "alibabacloud-gateway-spi"
 version = "0.0.2"
@@ -208,6 +243,11 @@ files = [
 
 [package.dependencies]
 alibabacloud_credentials = ">=0.3.4,<1.0.0"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "alibabacloud-gpdb20160503"
@@ -230,6 +270,11 @@ alibabacloud-tea-fileform = ">=0.0.3,<1.0.0"
 alibabacloud-tea-openapi = ">=0.3.10,<1.0.0"
 alibabacloud-tea-util = ">=0.3.12,<1.0.0"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "alibabacloud-openapi-util"
 version = "0.2.2"
@@ -243,6 +288,11 @@ files = [
 [package.dependencies]
 alibabacloud_tea_util = ">=0.0.2"
 cryptography = ">=3.0.0"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "alibabacloud-openplatform20191219"
@@ -261,6 +311,11 @@ alibabacloud-openapi-util = ">=0.1.6,<1.0.0"
 alibabacloud-tea-openapi = ">=0.3.3,<1.0.0"
 alibabacloud-tea-util = ">=0.3.6,<1.0.0"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "alibabacloud-oss-sdk"
 version = "0.1.0"
@@ -278,6 +333,11 @@ alibabacloud_tea_fileform = ">=0.0.3,<1.0.0"
 alibabacloud_tea_util = ">=0.3.1,<1.0.0"
 alibabacloud_tea_xml = ">=0.0.2,<1.0.0"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "alibabacloud-oss-util"
 version = "0.0.6"
@@ -290,6 +350,11 @@ files = [
 
 [package.dependencies]
 alibabacloud-tea = "*"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "alibabacloud-tea"
@@ -306,6 +371,11 @@ files = [
 aiohttp = ">=3.7.0,<4.0.0"
 requests = ">=2.21.0,<3.0.0"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "alibabacloud-tea-fileform"
 version = "0.0.5"
@@ -318,6 +388,11 @@ files = [
 
 [package.dependencies]
 alibabacloud-tea = ">=0.0.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "alibabacloud-tea-openapi"
@@ -336,6 +411,11 @@ alibabacloud_openapi_util = ">=0.2.1,<1.0.0"
 alibabacloud_tea_util = ">=0.3.13,<1.0.0"
 alibabacloud_tea_xml = ">=0.0.2,<1.0.0"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "alibabacloud-tea-util"
 version = "0.3.13"
@@ -349,6 +429,11 @@ files = [
 [package.dependencies]
 alibabacloud-tea = ">=0.3.3"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "alibabacloud-tea-xml"
 version = "0.0.2"
@@ -361,6 +446,11 @@ files = [
 
 [package.dependencies]
 alibabacloud-tea = ">=0.0.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "aliyun-python-sdk-core"
@@ -376,6 +466,11 @@ files = [
 cryptography = ">=3.0.0"
 jmespath = ">=0.9.3,<1.0.0"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "aliyun-python-sdk-kms"
 version = "2.16.5"
@@ -389,6 +484,11 @@ files = [
 
 [package.dependencies]
 aliyun-python-sdk-core = ">=2.11.5"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "amqp"
@@ -404,6 +504,11 @@ files = [
 [package.dependencies]
 vine = ">=5.0.0,<6.0.0"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "aniso8601"
 version = "9.0.1"
@@ -418,6 +523,11 @@ files = [
 [package.extras]
 dev = ["black", "coverage", "isort", "pre-commit", "pyenchant", "pylint"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "annotated-types"
 version = "0.7.0"
@@ -428,6 +538,11 @@ files = [
     {file = "annotated_types-0.7.0-py3-none-any.whl", hash = "sha256:1f02e8b43a8fbbc3f3e0d4f0f4bfc8131bcb4eebe8849b8e5c773f3a1c582a53"},
     {file = "annotated_types-0.7.0.tar.gz", hash = "sha256:aff07c09a53a08bc8cfccb9c85b05f1aa9a2a6f23728d790723543408344ce89"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "anthropic"
@@ -453,6 +568,11 @@ typing-extensions = ">=4.7,<5"
 bedrock = ["boto3 (>=1.28.57)", "botocore (>=1.31.57)"]
 vertex = ["google-auth (>=2,<3)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "anyio"
 version = "4.6.2.post1"
@@ -475,6 +595,11 @@ doc = ["Sphinx (>=7.4,<8.0)", "packaging", "sphinx-autodoc-typehints (>=1.2.0)",
 test = ["anyio[trio]", "coverage[toml] (>=7)", "exceptiongroup (>=1.2.0)", "hypothesis (>=4.0)", "psutil (>=5.9)", "pytest (>=7.0)", "pytest-mock (>=3.6.1)", "trustme", "truststore (>=0.9.1)", "uvloop (>=0.21.0b1)"]
 trio = ["trio (>=0.26.1)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "arxiv"
 version = "2.1.0"
@@ -489,6 +614,11 @@ files = [
 [package.dependencies]
 feedparser = "6.0.10"
 requests = "2.31.0"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "asgiref"
@@ -507,6 +637,11 @@ typing-extensions = {version = ">=4", markers = "python_version < \"3.11\""}
 [package.extras]
 tests = ["mypy (>=0.800)", "pytest", "pytest-asyncio"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "async-timeout"
 version = "4.0.3"
@@ -517,6 +652,11 @@ files = [
     {file = "async-timeout-4.0.3.tar.gz", hash = "sha256:4640d96be84d82d02ed59ea2b7105a0f7b33abe8703703cd0ab0bf87c427522f"},
     {file = "async_timeout-4.0.3-py3-none-any.whl", hash = "sha256:7405140ff1230c310e51dc27b3145b9092d659ce68ff733fb0cefe3ee42be028"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "attrs"
@@ -537,6 +677,11 @@ tests = ["attrs[tests-no-zope]", "zope-interface"]
 tests-mypy = ["mypy (>=1.6)", "pytest-mypy-plugins"]
 tests-no-zope = ["attrs[tests-mypy]", "cloudpickle", "hypothesis", "pympler", "pytest (>=4.3.0)", "pytest-xdist[psutil]"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "authlib"
 version = "1.3.1"
@@ -550,6 +695,11 @@ files = [
 
 [package.dependencies]
 cryptography = "*"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "azure-ai-inference"
@@ -569,6 +719,11 @@ typing-extensions = ">=4.6.0"
 
 [package.extras]
 opentelemetry = ["azure-core-tracing-opentelemetry"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "azure-ai-ml"
@@ -606,6 +761,11 @@ typing-extensions = "*"
 designer = ["mldesigner"]
 mount = ["azureml-dataprep-rslex (>=2.22.0)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "azure-common"
 version = "1.1.28"
@@ -616,6 +776,11 @@ files = [
     {file = "azure-common-1.1.28.zip", hash = "sha256:4ac0cd3214e36b6a1b6a442686722a5d8cc449603aa833f3f0f40bda836704a3"},
     {file = "azure_common-1.1.28-py2.py3-none-any.whl", hash = "sha256:5c12d3dcf4ec20599ca6b0d3e09e86e146353d443e7fcc050c9a19c1f9df20ad"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "azure-core"
@@ -636,6 +801,11 @@ typing-extensions = ">=4.6.0"
 [package.extras]
 aio = ["aiohttp (>=3.0)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "azure-identity"
 version = "1.16.1"
@@ -653,6 +823,11 @@ cryptography = ">=2.5"
 msal = ">=1.24.0"
 msal-extensions = ">=0.3.0"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "azure-mgmt-core"
 version = "1.4.0"
@@ -666,6 +841,11 @@ files = [
 
 [package.dependencies]
 azure-core = ">=1.26.2,<2.0.0"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "azure-storage-blob"
@@ -683,6 +863,11 @@ azure-core = ">=1.23.1,<2.0.0"
 cryptography = ">=2.1.4"
 msrest = ">=0.6.21"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "azure-storage-file-datalake"
 version = "12.8.0"
@@ -698,6 +883,11 @@ files = [
 azure-core = ">=1.23.1,<2.0.0"
 azure-storage-blob = ">=12.13.0,<13.0.0"
 msrest = ">=0.6.21"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "azure-storage-file-share"
@@ -719,6 +909,11 @@ typing-extensions = ">=4.6.0"
 [package.extras]
 aio = ["azure-core[aio] (>=1.30.0)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "backoff"
 version = "2.2.1"
@@ -730,12 +925,17 @@ files = [
     {file = "backoff-2.2.1.tar.gz", hash = "sha256:03f829f5bb1923180821643f8753b0502c3b682293992485b0eef2807afa5cba"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "bce-python-sdk"
 version = "0.9.23"
 description = "BCE SDK for python"
 optional = false
-python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,<4,>=2.7"
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, <4"
 files = [
     {file = "bce_python_sdk-0.9.23-py3-none-any.whl", hash = "sha256:8debe21a040e00060f6044877d594765ed7b18bc765c6bf16b878bca864140a3"},
     {file = "bce_python_sdk-0.9.23.tar.gz", hash = "sha256:19739fed5cd0725356fc5ffa2acbdd8fb23f2a81edb91db21a03174551d0cf41"},
@@ -745,6 +945,11 @@ files = [
 future = ">=0.6.0"
 pycryptodome = ">=3.8.0"
 six = ">=1.4.0"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "bcrypt"
@@ -786,6 +991,11 @@ files = [
 tests = ["pytest (>=3.2.1,!=3.3.0)"]
 typecheck = ["mypy"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "beautifulsoup4"
 version = "4.12.2"
@@ -804,6 +1014,11 @@ soupsieve = ">1.2"
 html5lib = ["html5lib"]
 lxml = ["lxml"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "billiard"
 version = "4.2.1"
@@ -814,6 +1029,11 @@ files = [
     {file = "billiard-4.2.1-py3-none-any.whl", hash = "sha256:40b59a4ac8806ba2c2369ea98d876bc6108b051c227baffd928c644d15d8f3cb"},
     {file = "billiard-4.2.1.tar.gz", hash = "sha256:12b641b0c539073fc8d3f5b8b7be998956665c4233c7c1fcd66a7e677c4fb36f"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "blinker"
@@ -826,12 +1046,17 @@ files = [
     {file = "blinker-1.8.2.tar.gz", hash = "sha256:8f77b09d3bf7c795e969e9486f39c2c5e9c39d4ee07424be2bc594ece9642d83"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "boto3"
 version = "1.35.17"
 description = "The AWS SDK for Python"
 optional = false
-python-versions = ">=3.8"
+python-versions = ">= 3.8"
 files = [
     {file = "boto3-1.35.17-py3-none-any.whl", hash = "sha256:67268aa6c4043e9fdeb4ab3c1e9032f44a6fa168c789af5e351f63f1f8880a2f"},
     {file = "boto3-1.35.17.tar.gz", hash = "sha256:4a32db8793569ee5f13c5bf3efb260193353cb8946bf6426e3c330b61c68e59d"},
@@ -845,12 +1070,17 @@ s3transfer = ">=0.10.0,<0.11.0"
 [package.extras]
 crt = ["botocore[crt] (>=1.21.0,<2.0a0)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "botocore"
 version = "1.35.47"
 description = "Low-level, data-driven core of boto 3."
 optional = false
-python-versions = ">=3.8"
+python-versions = ">= 3.8"
 files = [
     {file = "botocore-1.35.47-py3-none-any.whl", hash = "sha256:05f4493119a96799ff84d43e78691efac3177e1aec8840cca99511de940e342a"},
     {file = "botocore-1.35.47.tar.gz", hash = "sha256:f8f703463d3cd8b6abe2bedc443a7ab29f0e2ff1588a2e83164b108748645547"},
@@ -863,6 +1093,11 @@ urllib3 = {version = ">=1.25.4,<2.2.0 || >2.2.0,<3", markers = "python_version >
 
 [package.extras]
 crt = ["awscrt (==0.22.0)"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "bottleneck"
@@ -914,6 +1149,11 @@ numpy = "*"
 
 [package.extras]
 doc = ["gitpython", "numpydoc", "sphinx"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "brotli"
@@ -1007,6 +1247,11 @@ files = [
     {file = "Brotli-1.1.0.tar.gz", hash = "sha256:81de08ac11bcb85841e440c13611c00b67d3bf82698314928d0b676362546724"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "brotlicffi"
 version = "1.1.0.0"
@@ -1046,6 +1291,11 @@ files = [
 [package.dependencies]
 cffi = ">=1.0.0"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "bs4"
 version = "0.0.2"
@@ -1060,12 +1310,17 @@ files = [
 [package.dependencies]
 beautifulsoup4 = "*"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "build"
 version = "1.2.2.post1"
 description = "A simple, correct Python build frontend"
 optional = false
-python-versions = ">=3.8"
+python-versions = ">= 3.8"
 files = [
     {file = "build-1.2.2.post1-py3-none-any.whl", hash = "sha256:1d61c0887fa860c01971625baae8bdd338e517b836a2f70dd1f7aa3a6b2fc5b5"},
     {file = "build-1.2.2.post1.tar.gz", hash = "sha256:b36993e92ca9375a219c99e606a122ff365a760a2d4bba0caa09bd5278b608b7"},
@@ -1085,6 +1340,11 @@ typing = ["build[uv]", "importlib-metadata (>=5.1)", "mypy (>=1.9.0,<1.10.0)", "
 uv = ["uv (>=0.1.18)"]
 virtualenv = ["virtualenv (>=20.0.35)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "cachetools"
 version = "5.3.3"
@@ -1095,6 +1355,11 @@ files = [
     {file = "cachetools-5.3.3-py3-none-any.whl", hash = "sha256:0abad1021d3f8325b2fc1d2e9c8b9c9d57b04c3932657a72465447332c24d945"},
     {file = "cachetools-5.3.3.tar.gz", hash = "sha256:ba29e2dfa0b8b556606f097407ed1aa62080ee108ab0dc5ec9d6a723a007d105"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "celery"
@@ -1151,6 +1416,11 @@ yaml = ["PyYAML (>=3.10)"]
 zookeeper = ["kazoo (>=1.3.1)"]
 zstd = ["zstandard (==0.22.0)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "certifi"
 version = "2024.8.30"
@@ -1161,6 +1431,11 @@ files = [
     {file = "certifi-2024.8.30-py3-none-any.whl", hash = "sha256:922820b53db7a7257ffbda3f597266d435245903d80737e34f8a45ff3e3230d8"},
     {file = "certifi-2024.8.30.tar.gz", hash = "sha256:bec941d2aa8195e248a60b31ff9f0558284cf01a52591ceda73ea9afffd69fd9"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "cffi"
@@ -1241,6 +1516,11 @@ files = [
 [package.dependencies]
 pycparser = "*"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "chardet"
 version = "5.1.0"
@@ -1251,6 +1531,11 @@ files = [
     {file = "chardet-5.1.0-py3-none-any.whl", hash = "sha256:362777fb014af596ad31334fde1e8c327dfdb076e1960d1694662d46a6917ab9"},
     {file = "chardet-5.1.0.tar.gz", hash = "sha256:0d62712b956bc154f85fb0a266e2a3c5913c2967e00348701b32411d6def31e5"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "charset-normalizer"
@@ -1366,6 +1651,11 @@ files = [
     {file = "charset_normalizer-3.4.0.tar.gz", hash = "sha256:223217c3d4f82c3ac5e29032b3f1c2eb0fb591b72161f86d93f5719079dae93e"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "chroma-hnswlib"
 version = "0.7.3"
@@ -1402,6 +1692,11 @@ files = [
 
 [package.dependencies]
 numpy = "*"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "chromadb"
@@ -1444,6 +1739,11 @@ typer = ">=0.9.0"
 typing-extensions = ">=4.5.0"
 uvicorn = {version = ">=0.18.3", extras = ["standard"]}
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "circuitbreaker"
 version = "2.0.0"
@@ -1454,6 +1754,11 @@ files = [
     {file = "circuitbreaker-2.0.0-py2.py3-none-any.whl", hash = "sha256:c8c6f044b616cd5066368734ce4488020392c962b4bd2869d406d883c36d9859"},
     {file = "circuitbreaker-2.0.0.tar.gz", hash = "sha256:28110761ca81a2accbd6b33186bc8c433e69b0933d85e89f280028dbb8c1dd14"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "click"
@@ -1468,6 +1773,11 @@ files = [
 
 [package.dependencies]
 colorama = {version = "*", markers = "platform_system == \"Windows\""}
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "click-default-group"
@@ -1486,6 +1796,11 @@ click = "*"
 [package.extras]
 test = ["pytest"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "click-didyoumean"
 version = "0.3.1"
@@ -1499,6 +1814,11 @@ files = [
 
 [package.dependencies]
 click = ">=7"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "click-plugins"
@@ -1517,6 +1837,11 @@ click = ">=4.0"
 [package.extras]
 dev = ["coveralls", "pytest (>=3.6)", "pytest-cov", "wheel"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "click-repl"
 version = "0.3.0"
@@ -1534,6 +1859,11 @@ prompt-toolkit = ">=3.0.36"
 
 [package.extras]
 testing = ["pytest (>=7.2.1)", "pytest-cov (>=4.0.0)", "tox (>=4.4.3)"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "clickhouse-connect"
@@ -1625,6 +1955,11 @@ pandas = ["pandas"]
 sqlalchemy = ["sqlalchemy (>1.3.21,<2.0)"]
 tzlocal = ["tzlocal (>=4.0)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "cloudpickle"
 version = "2.2.1"
@@ -1635,6 +1970,11 @@ files = [
     {file = "cloudpickle-2.2.1-py3-none-any.whl", hash = "sha256:61f594d1f4c295fa5cd9014ceb3a1fc4a70b0de1164b94fbc2d854ccba056f9f"},
     {file = "cloudpickle-2.2.1.tar.gz", hash = "sha256:d89684b8de9e34a2a43b3460fbca07d09d6e25ce858df4d5a44240403b6178f5"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "cloudscraper"
@@ -1652,12 +1992,33 @@ pyparsing = ">=2.4.7"
 requests = ">=2.9.2"
 requests-toolbelt = ">=0.9.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
+[[package]]
+name = "cobble"
+version = "0.1.4"
+description = "Create data objects"
+optional = false
+python-versions = ">=3.5"
+files = [
+    {file = "cobble-0.1.4-py3-none-any.whl", hash = "sha256:36c91b1655e599fd428e2b95fdd5f0da1ca2e9f1abb0bc871dec21a0e78a2b44"},
+    {file = "cobble-0.1.4.tar.gz", hash = "sha256:de38be1539992c8a06e569630717c485a5f91be2192c461ea2b220607dfa78aa"},
+]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "cohere"
 version = "5.2.6"
 description = ""
 optional = false
-python-versions = "<4.0,>=3.8"
+python-versions = ">=3.8,<4.0"
 files = [
     {file = "cohere-5.2.6-py3-none-any.whl", hash = "sha256:256b4ed00f47eb315401d7f28834655714f098382908e7d0ad5c98225aa6a57d"},
     {file = "cohere-5.2.6.tar.gz", hash = "sha256:15d13682706fbafc8cf700e195f628389a643eb7ebd6d7c5e9d6e1ebd3f942fb"},
@@ -1672,6 +2033,11 @@ tokenizers = ">=0.15.2,<0.16.0"
 types-requests = ">=2.0.0,<3.0.0"
 typing_extensions = ">=4.0.0"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "colorama"
 version = "0.4.6"
@@ -1682,6 +2048,11 @@ files = [
     {file = "colorama-0.4.6-py2.py3-none-any.whl", hash = "sha256:4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6"},
     {file = "colorama-0.4.6.tar.gz", hash = "sha256:08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "coloredlogs"
@@ -1699,6 +2070,11 @@ humanfriendly = ">=9.1"
 
 [package.extras]
 cron = ["capturer (>=2.4)"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "contourpy"
@@ -1784,6 +2160,11 @@ mypy = ["contourpy[bokeh,docs]", "docutils-stubs", "mypy (==1.11.1)", "types-Pil
 test = ["Pillow", "contourpy[test-no-images]", "matplotlib"]
 test-no-images = ["pytest", "pytest-cov", "pytest-rerunfailures", "pytest-xdist", "wurlitzer"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "cos-python-sdk-v5"
 version = "1.9.30"
@@ -1800,6 +2181,11 @@ pycryptodome = "*"
 requests = ">=2.8"
 six = "*"
 xmltodict = "*"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "coverage"
@@ -1873,6 +2259,11 @@ files = [
 [package.extras]
 toml = ["tomli"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "crcmod"
 version = "1.7"
@@ -1882,6 +2273,11 @@ python-versions = "*"
 files = [
     {file = "crcmod-1.7.tar.gz", hash = "sha256:dc7051a0db5f2bd48665a990d3ec1cc305a466a77358ca4492826f41f283601e"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "cryptography"
@@ -1932,6 +2328,11 @@ ssh = ["bcrypt (>=3.1.5)"]
 test = ["certifi", "cryptography-vectors (==43.0.3)", "pretend", "pytest (>=6.2.0)", "pytest-benchmark", "pytest-cov", "pytest-xdist"]
 test-randomorder = ["pytest-randomly"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "cssselect"
 version = "1.2.0"
@@ -1942,6 +2343,11 @@ files = [
     {file = "cssselect-1.2.0-py2.py3-none-any.whl", hash = "sha256:da1885f0c10b60c03ed5eccbb6b68d6eff248d91976fcde348f395d54c9fd35e"},
     {file = "cssselect-1.2.0.tar.gz", hash = "sha256:666b19839cfaddb9ce9d36bfe4c969132c647b92fc9088c4e23f786b30f1b3dc"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "cycler"
@@ -1957,6 +2363,11 @@ files = [
 [package.extras]
 docs = ["ipython", "matplotlib", "numpydoc", "sphinx"]
 tests = ["pytest", "pytest-cov", "pytest-xdist"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "dashscope"
@@ -1976,6 +2387,11 @@ tiktoken = {version = "*", optional = true, markers = "extra == \"tokenizer\""}
 [package.extras]
 tokenizer = ["tiktoken"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "dataclass-wizard"
 version = "0.23.0"
@@ -1992,12 +2408,17 @@ dev = ["Sphinx (==5.3.0)", "bump2version (==1.0.1)", "coverage (>=6.2)", "datacl
 timedelta = ["pytimeparse (>=1.1.7)"]
 yaml = ["PyYAML (>=5.3)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "dataclasses-json"
 version = "0.6.7"
 description = "Easily serialize dataclasses to and from JSON."
 optional = false
-python-versions = "<4.0,>=3.7"
+python-versions = ">=3.7,<4.0"
 files = [
     {file = "dataclasses_json-0.6.7-py3-none-any.whl", hash = "sha256:0dbf33f26c8d5305befd61b39d2b3414e8a407bedc2834dea9b8d642666fb40a"},
     {file = "dataclasses_json-0.6.7.tar.gz", hash = "sha256:b6b3e528266ea45b9535223bc53ca645f5208833c29229e847b3f26a1cc55fc0"},
@@ -2006,6 +2427,11 @@ files = [
 [package.dependencies]
 marshmallow = ">=3.18.0,<4.0.0"
 typing-inspect = ">=0.4.0,<1"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "db-dtypes"
@@ -2024,6 +2450,11 @@ packaging = ">=17.0"
 pandas = ">=0.24.2"
 pyarrow = ">=3.0.0"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "decorator"
 version = "5.1.1"
@@ -2035,6 +2466,11 @@ files = [
     {file = "decorator-5.1.1.tar.gz", hash = "sha256:637996211036b6385ef91435e4fae22989472f9d571faba8927ba8253acbc330"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "defusedxml"
 version = "0.7.1"
@@ -2045,6 +2481,11 @@ files = [
     {file = "defusedxml-0.7.1-py2.py3-none-any.whl", hash = "sha256:a352e7e428770286cc899e2542b6cdaedb2b4953ff269a210103ec58f6198a61"},
     {file = "defusedxml-0.7.1.tar.gz", hash = "sha256:1bb3032db185915b62d7c6209c5a8792be6a32ab2fedacc84e01b52c51aa3e69"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "deprecated"
@@ -2063,6 +2504,11 @@ wrapt = ">=1.10,<2"
 [package.extras]
 dev = ["PyTest", "PyTest-Cov", "bump2version (<1)", "sphinx (<2)", "tox"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "deprecation"
 version = "2.1.0"
@@ -2076,6 +2522,38 @@ files = [
 
 [package.dependencies]
 packaging = "*"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
+[[package]]
+name = "dify-rag"
+version = "0.0.28"
+description = "dify's rag patch module"
+optional = false
+python-versions = ">=3.8,<4.0"
+files = [
+    {file = "dify_rag-0.0.28-py3-none-any.whl", hash = "sha256:01e09cb2c9cc0d563011f94e9283ce704d13bfd753d6d7189e94f5438ce5bb11"},
+    {file = "dify_rag-0.0.28.tar.gz", hash = "sha256:7fda152e6d1947742bd5b4a7065a02cf4525292883a37903f776151d4fc0c6be"},
+]
+
+[package.dependencies]
+annotated-types = ">=0.7.0,<0.8.0"
+beautifulsoup4 = ">=4.12.2,<5.0.0"
+chardet = ">=5.1.0,<6.0.0"
+lxml-html-clean = ">=0.2.0,<0.3.0"
+mammoth = ">=1.8.0,<2.0.0"
+pydantic = ">=2.8.2,<3.0.0"
+pydantic-core = ">=2.20.1,<3.0.0"
+pymupdf = ">=1.24.9,<2.0.0"
+requests = ">=2.30.0,<3.0.0"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "dill"
@@ -2092,6 +2570,11 @@ files = [
 graph = ["objgraph (>=1.7.2)"]
 profile = ["gprof2dot (>=2022.7.29)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "distro"
 version = "1.9.0"
@@ -2102,6 +2585,11 @@ files = [
     {file = "distro-1.9.0-py3-none-any.whl", hash = "sha256:7bffd925d65168f85027d8da9af6bddab658135b840670a223589bc0c8ef02b2"},
     {file = "distro-1.9.0.tar.gz", hash = "sha256:2fa77c6fd8940f116ee1d6b94a2f90b13b5ea8d019b98bc8bafdcabcdd9bdbed"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "docker"
@@ -2125,6 +2613,11 @@ docs = ["myst-parser (==0.18.0)", "sphinx (==5.1.1)"]
 ssh = ["paramiko (>=2.4.3)"]
 websockets = ["websocket-client (>=1.3.0)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "docstring-parser"
 version = "0.16"
@@ -2135,6 +2628,11 @@ files = [
     {file = "docstring_parser-0.16-py3-none-any.whl", hash = "sha256:bf0a1387354d3691d102edef7ec124f219ef639982d096e26e3b60aeffa90637"},
     {file = "docstring_parser-0.16.tar.gz", hash = "sha256:538beabd0af1e2db0146b6bd3caa526c35a34d61af9fd2887f3a8a27a739aa6e"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "dotenv-linter"
@@ -2153,6 +2651,11 @@ click = ">=6,<9"
 click_default_group = ">=1.2,<2.0"
 ply = ">=3.11,<4.0"
 typing_extensions = ">=4.0,<5.0"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "duckdb"
@@ -2215,6 +2718,11 @@ files = [
     {file = "duckdb-1.1.2.tar.gz", hash = "sha256:c8232861dc8ec6daa29067056d5a0e5789919f2ab22ab792787616d7cd52f02a"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "duckduckgo-search"
 version = "6.3.2"
@@ -2234,6 +2742,11 @@ primp = ">=0.6.4"
 dev = ["mypy (>=1.11.1)", "pytest (>=8.3.1)", "pytest-asyncio (>=0.23.8)", "ruff (>=0.6.1)"]
 lxml = ["lxml (>=5.2.2)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "durationpy"
 version = "0.9"
@@ -2244,6 +2757,11 @@ files = [
     {file = "durationpy-0.9-py3-none-any.whl", hash = "sha256:e65359a7af5cedad07fb77a2dd3f390f8eb0b74cb845589fa6c057086834dd38"},
     {file = "durationpy-0.9.tar.gz", hash = "sha256:fd3feb0a69a0057d582ef643c355c40d2fa1c942191f914d12203b1a01ac722a"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "elastic-transport"
@@ -2262,6 +2780,11 @@ urllib3 = ">=1.26.2,<3"
 
 [package.extras]
 develop = ["aiohttp", "furo", "httpcore (<1.0.6)", "httpx", "opentelemetry-api", "opentelemetry-sdk", "orjson", "pytest", "pytest-asyncio", "pytest-cov", "pytest-httpserver", "pytest-mock", "requests", "respx", "sphinx (>2)", "sphinx-autodoc-typehints", "trustme"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "elasticsearch"
@@ -2283,6 +2806,11 @@ orjson = ["orjson (>=3)"]
 requests = ["requests (>=2.4.0,!=2.32.2,<3.0.0)"]
 vectorstore-mmr = ["numpy (>=1)", "simsimd (>=3)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "emoji"
 version = "2.14.0"
@@ -2296,6 +2824,11 @@ files = [
 
 [package.extras]
 dev = ["coverage", "pytest (>=7.4.4)"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "environs"
@@ -2318,6 +2851,11 @@ django = ["dj-database-url", "dj-email-url", "django-cache-url"]
 lint = ["flake8 (==4.0.1)", "flake8-bugbear (==21.9.2)", "mypy (==0.910)", "pre-commit (>=2.4,<3.0)"]
 tests = ["dj-database-url", "dj-email-url", "django-cache-url", "pytest"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "esdk-obs-python"
 version = "3.24.6.1"
@@ -2331,6 +2869,11 @@ files = [
 [package.dependencies]
 pycryptodome = ">=3.10.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "et-xmlfile"
 version = "1.1.0"
@@ -2341,6 +2884,11 @@ files = [
     {file = "et_xmlfile-1.1.0-py3-none-any.whl", hash = "sha256:a2ba85d1d6a74ef63837eed693bcb89c3f752169b0e3e7ae5b16ca5e1b3deada"},
     {file = "et_xmlfile-1.1.0.tar.gz", hash = "sha256:8eb9e2bc2f8c97e37a2dc85a09ecdcdec9d8a396530a6d5a33b30b9a92da0c5c"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "eval-type-backport"
@@ -2356,6 +2904,11 @@ files = [
 [package.extras]
 tests = ["pytest"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "exceptiongroup"
 version = "1.2.2"
@@ -2369,6 +2922,11 @@ files = [
 
 [package.extras]
 test = ["pytest (>=6)"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "fastapi"
@@ -2389,6 +2947,11 @@ typing-extensions = ">=4.8.0"
 [package.extras]
 all = ["email-validator (>=2.0.0)", "fastapi-cli[standard] (>=0.0.5)", "httpx (>=0.23.0)", "itsdangerous (>=1.1.0)", "jinja2 (>=2.11.2)", "orjson (>=3.2.1)", "pydantic-extra-types (>=2.0.0)", "pydantic-settings (>=2.0.0)", "python-multipart (>=0.0.7)", "pyyaml (>=5.3.1)", "ujson (>=4.0.1,!=4.0.2,!=4.1.0,!=4.2.0,!=4.3.0,!=5.0.0,!=5.1.0)", "uvicorn[standard] (>=0.12.0)"]
 standard = ["email-validator (>=2.0.0)", "fastapi-cli[standard] (>=0.0.5)", "httpx (>=0.23.0)", "jinja2 (>=2.11.2)", "python-multipart (>=0.0.7)", "uvicorn[standard] (>=0.12.0)"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "fastavro"
@@ -2436,6 +2999,11 @@ lz4 = ["lz4"]
 snappy = ["cramjam"]
 zstandard = ["zstandard"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "feedfinder2"
 version = "0.0.4"
@@ -2451,6 +3019,11 @@ beautifulsoup4 = "*"
 requests = "*"
 six = "*"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "feedparser"
 version = "6.0.10"
@@ -2464,6 +3037,11 @@ files = [
 
 [package.dependencies]
 sgmllib3k = "*"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "filelock"
@@ -2481,6 +3059,11 @@ docs = ["furo (>=2024.8.6)", "sphinx (>=8.0.2)", "sphinx-autodoc-typehints (>=2.
 testing = ["covdefaults (>=2.3)", "coverage (>=7.6.1)", "diff-cover (>=9.2)", "pytest (>=8.3.3)", "pytest-asyncio (>=0.24)", "pytest-cov (>=5)", "pytest-mock (>=3.14)", "pytest-timeout (>=2.3.1)", "virtualenv (>=20.26.4)"]
 typing = ["typing-extensions (>=4.12.2)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "filetype"
 version = "1.2.0"
@@ -2491,6 +3074,11 @@ files = [
     {file = "filetype-1.2.0-py2.py3-none-any.whl", hash = "sha256:7ce71b6880181241cf7ac8697a2f1eb6a8bd9b429f7ad6d27b8db9ba5f1c2d25"},
     {file = "filetype-1.2.0.tar.gz", hash = "sha256:66b56cd6474bf41d8c54660347d37afcc3f7d1970648de365c102ef77548aadb"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "flasgger"
@@ -2509,6 +3097,11 @@ mistune = "*"
 packaging = "*"
 PyYAML = ">=3.0"
 six = ">=1.10.0"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "flask"
@@ -2532,6 +3125,11 @@ Werkzeug = ">=3.0.0"
 async = ["asgiref (>=3.2)"]
 dotenv = ["python-dotenv"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "flask-compress"
 version = "1.14"
@@ -2548,6 +3146,11 @@ brotli = {version = "*", markers = "platform_python_implementation != \"PyPy\""}
 brotlicffi = {version = "*", markers = "platform_python_implementation == \"PyPy\""}
 flask = "*"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "flask-cors"
 version = "4.0.2"
@@ -2561,6 +3164,11 @@ files = [
 
 [package.dependencies]
 Flask = ">=0.9"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "flask-login"
@@ -2577,6 +3185,11 @@ files = [
 Flask = ">=1.0.4"
 Werkzeug = ">=1.0.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "flask-migrate"
 version = "4.0.7"
@@ -2592,6 +3205,11 @@ files = [
 alembic = ">=1.9.0"
 Flask = ">=0.9"
 Flask-SQLAlchemy = ">=1.0"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "flask-restful"
@@ -2613,6 +3231,11 @@ six = ">=1.3.0"
 [package.extras]
 docs = ["sphinx"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "flask-sock"
 version = "0.7.0"
@@ -2631,6 +3254,11 @@ simple-websocket = ">=0.5.1"
 [package.extras]
 docs = ["sphinx"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "flask-sqlalchemy"
 version = "3.1.1"
@@ -2646,6 +3274,11 @@ files = [
 flask = ">=2.2.5"
 sqlalchemy = ">=2.0.16"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "flatbuffers"
 version = "24.3.25"
@@ -2656,6 +3289,11 @@ files = [
     {file = "flatbuffers-24.3.25-py2.py3-none-any.whl", hash = "sha256:8dbdec58f935f3765e4f7f3cf635ac3a77f83568138d6a2311f524ec96364812"},
     {file = "flatbuffers-24.3.25.tar.gz", hash = "sha256:de2ec5b203f21441716617f38443e0a8ebf3d25bf0d9c0bb0ce68fa00ad546a4"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "fonttools"
@@ -2728,6 +3366,11 @@ ufo = ["fs (>=2.2.0,<3)"]
 unicode = ["unicodedata2 (>=15.1.0)"]
 woff = ["brotli (>=1.0.1)", "brotlicffi (>=0.8.0)", "zopfli (>=0.1.4)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "frozendict"
 version = "2.4.6"
@@ -2775,6 +3418,11 @@ files = [
     {file = "frozendict-2.4.6-py313-none-any.whl", hash = "sha256:7134a2bb95d4a16556bb5f2b9736dceb6ea848fa5b6f3f6c2d6dba93b44b4757"},
     {file = "frozendict-2.4.6.tar.gz", hash = "sha256:df7cd16470fbd26fc4969a208efadc46319334eb97def1ddf48919b351192b8e"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "frozenlist"
@@ -2877,6 +3525,11 @@ files = [
     {file = "frozenlist-1.5.0.tar.gz", hash = "sha256:81d5af29e61b9c8348e876d442253723928dce6433e0e76cd925cd83f1b4b817"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "fsspec"
 version = "2024.10.0"
@@ -2916,6 +3569,11 @@ test-downstream = ["aiobotocore (>=2.5.4,<3.0.0)", "dask-expr", "dask[dataframe,
 test-full = ["adlfs", "aiohttp (!=4.0.0a0,!=4.0.0a1)", "cloudpickle", "dask", "distributed", "dropbox", "dropboxdrivefs", "fastparquet", "fusepy", "gcsfs", "jinja2", "kerchunk", "libarchive-c", "lz4", "notebook", "numpy", "ocifs", "pandas", "panel", "paramiko", "pyarrow", "pyarrow (>=1)", "pyftpdlib", "pygit2", "pytest", "pytest-asyncio (!=0.22.0)", "pytest-benchmark", "pytest-cov", "pytest-mock", "pytest-recording", "pytest-rerunfailures", "python-snappy", "requests", "smbprotocol", "tqdm", "urllib3", "zarr", "zstandard"]
 tqdm = ["tqdm"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "future"
 version = "1.0.0"
@@ -2926,6 +3584,11 @@ files = [
     {file = "future-1.0.0-py3-none-any.whl", hash = "sha256:929292d34f5872e70396626ef385ec22355a1fae8ad29e1a734c3e43f9fbc216"},
     {file = "future-1.0.0.tar.gz", hash = "sha256:bd2968309307861edae1458a4f8a4f3598c03be43b97521076aebf5d94c07b05"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "gevent"
@@ -2992,6 +3655,11 @@ monitor = ["psutil (>=5.7.0)"]
 recommended = ["cffi (>=1.12.2)", "dnspython (>=1.16.0,<2.0)", "idna", "psutil (>=5.7.0)"]
 test = ["cffi (>=1.12.2)", "coverage (>=5.0)", "dnspython (>=1.16.0,<2.0)", "idna", "objgraph", "psutil (>=5.7.0)", "requests", "setuptools"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "gmpy2"
 version = "2.2.1"
@@ -3054,6 +3722,11 @@ files = [
 docs = ["sphinx (>=4)", "sphinx-rtd-theme (>=1)"]
 tests = ["cython", "hypothesis", "mpmath", "pytest", "setuptools"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "google"
 version = "3.0.0"
@@ -3067,6 +3740,11 @@ files = [
 
 [package.dependencies]
 beautifulsoup4 = "*"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "google-ai-generativelanguage"
@@ -3084,6 +3762,11 @@ google-api-core = {version = ">=1.34.1,<2.0.dev0 || >=2.11.dev0,<3.0.0dev", extr
 google-auth = ">=2.14.1,<2.24.0 || >2.24.0,<2.25.0 || >2.25.0,<3.0.0dev"
 proto-plus = ">=1.22.3,<2.0.0dev"
 protobuf = ">=3.20.2,<4.21.0 || >4.21.0,<4.21.1 || >4.21.1,<4.21.2 || >4.21.2,<4.21.3 || >4.21.3,<4.21.4 || >4.21.4,<4.21.5 || >4.21.5,<6.0.0dev"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "google-api-core"
@@ -3116,6 +3799,11 @@ grpc = ["grpcio (>=1.33.2,<2.0dev)", "grpcio (>=1.49.1,<2.0dev)", "grpcio-status
 grpcgcp = ["grpcio-gcp (>=0.2.2,<1.0.dev0)"]
 grpcio-gcp = ["grpcio-gcp (>=0.2.2,<1.0.dev0)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "google-api-python-client"
 version = "2.90.0"
@@ -3133,6 +3821,11 @@ google-auth = ">=1.19.0,<3.0.0.dev0"
 google-auth-httplib2 = ">=0.1.0"
 httplib2 = ">=0.15.0,<1.dev0"
 uritemplate = ">=3.0.1,<5"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "google-auth"
@@ -3157,6 +3850,11 @@ pyopenssl = ["cryptography (>=38.0.3)", "pyopenssl (>=20.0.0)"]
 reauth = ["pyu2f (>=0.1.5)"]
 requests = ["requests (>=2.20.0,<3.0.0.dev0)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "google-auth-httplib2"
 version = "0.2.0"
@@ -3171,6 +3869,11 @@ files = [
 [package.dependencies]
 google-auth = "*"
 httplib2 = ">=0.19.0"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "google-cloud-aiplatform"
@@ -3219,6 +3922,11 @@ testing = ["bigframes", "cloudpickle (<3.0)", "docker (>=5.0.3)", "explainable-a
 vizier = ["google-vizier (>=0.1.6)"]
 xai = ["tensorflow (>=2.3.0,<3.0.0dev)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "google-cloud-bigquery"
 version = "3.26.0"
@@ -3250,6 +3958,11 @@ opentelemetry = ["opentelemetry-api (>=1.1.0)", "opentelemetry-instrumentation (
 pandas = ["db-dtypes (>=0.3.0,<2.0.0dev)", "importlib-metadata (>=1.0.0)", "pandas (>=1.1.0)", "pyarrow (>=3.0.0)"]
 tqdm = ["tqdm (>=4.7.4,<5.0.0dev)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "google-cloud-core"
 version = "2.4.1"
@@ -3268,6 +3981,11 @@ google-auth = ">=1.25.0,<3.0dev"
 [package.extras]
 grpc = ["grpcio (>=1.38.0,<2.0dev)", "grpcio-status (>=1.38.0,<2.0.dev0)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "google-cloud-resource-manager"
 version = "1.12.5"
@@ -3285,6 +4003,11 @@ google-auth = ">=2.14.1,<2.24.0 || >2.24.0,<2.25.0 || >2.25.0,<3.0.0dev"
 grpc-google-iam-v1 = ">=0.12.4,<1.0.0dev"
 proto-plus = ">=1.22.3,<2.0.0dev"
 protobuf = ">=3.20.2,<4.21.0 || >4.21.0,<4.21.1 || >4.21.1,<4.21.2 || >4.21.2,<4.21.3 || >4.21.3,<4.21.4 || >4.21.4,<4.21.5 || >4.21.5,<6.0.0dev"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "google-cloud-storage"
@@ -3307,6 +4030,11 @@ requests = ">=2.18.0,<3.0.0dev"
 
 [package.extras]
 protobuf = ["protobuf (<5.0.0dev)"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "google-crc32c"
@@ -3347,6 +4075,11 @@ files = [
 [package.extras]
 testing = ["pytest"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "google-generativeai"
 version = "0.8.1"
@@ -3370,6 +4103,11 @@ typing-extensions = "*"
 [package.extras]
 dev = ["Pillow", "absl-py", "black", "ipython", "nose2", "pandas", "pytype", "pyyaml"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "google-pasta"
 version = "0.2.0"
@@ -3385,12 +4123,17 @@ files = [
 [package.dependencies]
 six = "*"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "google-resumable-media"
 version = "2.7.2"
 description = "Utilities for Google Media Downloads and Resumable Uploads"
 optional = false
-python-versions = ">=3.7"
+python-versions = ">= 3.7"
 files = [
     {file = "google_resumable_media-2.7.2-py2.py3-none-any.whl", hash = "sha256:3ce7551e9fe6d99e9a126101d2536612bb73486721951e9562fee0f90c6ababa"},
     {file = "google_resumable_media-2.7.2.tar.gz", hash = "sha256:5280aed4629f2b60b847b0d42f9857fd4935c11af266744df33d8074cae92fe0"},
@@ -3402,6 +4145,11 @@ google-crc32c = ">=1.0,<2.0dev"
 [package.extras]
 aiohttp = ["aiohttp (>=3.6.2,<4.0.0dev)", "google-auth (>=1.22.0,<2.0dev)"]
 requests = ["requests (>=2.18.0,<3.0.0dev)"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "googleapis-common-protos"
@@ -3421,12 +4169,17 @@ protobuf = ">=3.19.5,<3.20.0 || >3.20.0,<3.20.1 || >3.20.1,<4.21.1 || >4.21.1,<4
 [package.extras]
 grpc = ["grpcio (>=1.44.0,<2.0.0.dev0)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "gotrue"
 version = "2.9.3"
 description = "Python Client Library for Supabase Auth"
 optional = false
-python-versions = "<4.0,>=3.9"
+python-versions = ">=3.9,<4.0"
 files = [
     {file = "gotrue-2.9.3-py3-none-any.whl", hash = "sha256:9d2e9c74405d879f4828e0a7b94daf167a6e109c10ae6e5c59a0e21446f6e423"},
     {file = "gotrue-2.9.3.tar.gz", hash = "sha256:051551d80e642bdd2ab42cac78207745d89a2a08f429a1512d82624e675d8255"},
@@ -3435,6 +4188,11 @@ files = [
 [package.dependencies]
 httpx = {version = ">=0.26,<0.28", extras = ["http2"]}
 pydantic = ">=1.10,<3"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "greenlet"
@@ -3522,6 +4280,11 @@ files = [
 docs = ["Sphinx", "furo"]
 test = ["objgraph", "psutil"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "grpc-google-iam-v1"
 version = "0.13.1"
@@ -3537,6 +4300,11 @@ files = [
 googleapis-common-protos = {version = ">=1.56.0,<2.0.0dev", extras = ["grpc"]}
 grpcio = ">=1.44.0,<2.0.0dev"
 protobuf = ">=3.20.2,<4.21.1 || >4.21.1,<4.21.2 || >4.21.2,<4.21.3 || >4.21.3,<4.21.4 || >4.21.4,<4.21.5 || >4.21.5,<6.0.0dev"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "grpcio"
@@ -3605,6 +4373,11 @@ files = [
 [package.extras]
 protobuf = ["grpcio-tools (>=1.67.0)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "grpcio-status"
 version = "1.62.3"
@@ -3620,6 +4393,11 @@ files = [
 googleapis-common-protos = ">=1.5.5"
 grpcio = ">=1.62.3"
 protobuf = ">=4.21.6"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "grpcio-tools"
@@ -3683,6 +4461,11 @@ grpcio = ">=1.62.3"
 protobuf = ">=4.21.6,<5.0dev"
 setuptools = "*"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "gunicorn"
 version = "22.0.0"
@@ -3704,6 +4487,11 @@ setproctitle = ["setproctitle"]
 testing = ["coverage", "eventlet", "gevent", "pytest", "pytest-cov"]
 tornado = ["tornado (>=0.2)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "h11"
 version = "0.14.0"
@@ -3714,6 +4502,11 @@ files = [
     {file = "h11-0.14.0-py3-none-any.whl", hash = "sha256:e3fe4ac4b851c468cc8363d500db52c2ead036020723024a109d37346efaa761"},
     {file = "h11-0.14.0.tar.gz", hash = "sha256:8f19fbbe99e72420ff35c00b27a34cb9937e902a8b810e2c88300c6f0a3b699d"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "h2"
@@ -3729,6 +4522,11 @@ files = [
 [package.dependencies]
 hpack = ">=4.0,<5"
 hyperframe = ">=6.0,<7"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "hiredis"
@@ -3833,6 +4631,11 @@ files = [
     {file = "hiredis-3.0.0.tar.gz", hash = "sha256:fed8581ae26345dea1f1e0d1a96e05041a727a45e7d8d459164583e23c6ac441"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "hpack"
 version = "4.0.0"
@@ -3843,6 +4646,11 @@ files = [
     {file = "hpack-4.0.0-py3-none-any.whl", hash = "sha256:84a076fad3dc9a9f8063ccb8041ef100867b1878b25ef0ee63847a5d53818a6c"},
     {file = "hpack-4.0.0.tar.gz", hash = "sha256:fc41de0c63e687ebffde81187a948221294896f6bdc0ae2312708df339430095"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "html5lib"
@@ -3865,6 +4673,11 @@ chardet = ["chardet (>=2.2)"]
 genshi = ["genshi"]
 lxml = ["lxml"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "httpcore"
 version = "1.0.6"
@@ -3886,6 +4699,11 @@ http2 = ["h2 (>=3,<5)"]
 socks = ["socksio (==1.*)"]
 trio = ["trio (>=0.22.0,<1.0)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "httplib2"
 version = "0.22.0"
@@ -3899,6 +4717,11 @@ files = [
 
 [package.dependencies]
 pyparsing = {version = ">=2.4.2,<3.0.0 || >3.0.0,<3.0.1 || >3.0.1,<3.0.2 || >3.0.2,<3.0.3 || >3.0.3,<4", markers = "python_version > \"3.0\""}
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "httptools"
@@ -3955,6 +4778,11 @@ files = [
 [package.extras]
 test = ["Cython (>=0.29.24)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "httpx"
 version = "0.27.2"
@@ -3981,6 +4809,11 @@ cli = ["click (==8.*)", "pygments (==2.*)", "rich (>=10,<14)"]
 http2 = ["h2 (>=3,<5)"]
 socks = ["socksio (==1.*)"]
 zstd = ["zstandard (>=0.18.0)"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "huggingface-hub"
@@ -4014,6 +4847,11 @@ testing = ["InquirerPy (==0.3.4)", "Jinja2", "Pillow", "aiohttp", "gradio", "jed
 torch = ["torch"]
 typing = ["pydantic", "types-PyYAML", "types-requests", "types-simplejson", "types-toml", "types-tqdm", "types-urllib3"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "humanfriendly"
 version = "10.0"
@@ -4028,6 +4866,11 @@ files = [
 [package.dependencies]
 pyreadline3 = {version = "*", markers = "sys_platform == \"win32\" and python_version >= \"3.8\""}
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "hyperframe"
 version = "6.0.1"
@@ -4038,6 +4881,11 @@ files = [
     {file = "hyperframe-6.0.1-py3-none-any.whl", hash = "sha256:0ec6bafd80d8ad2195c4f03aacba3a8265e57bc4cff261e802bf39970ed02a15"},
     {file = "hyperframe-6.0.1.tar.gz", hash = "sha256:ae510046231dc8e9ecb1a6586f63d2347bf4c8905914aa84ba585ae85f28a914"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "idna"
@@ -4052,6 +4900,11 @@ files = [
 
 [package.extras]
 all = ["flake8 (>=7.1.1)", "mypy (>=1.11.2)", "pytest (>=8.3.2)", "ruff (>=0.6.2)"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "importlib-metadata"
@@ -4072,6 +4925,11 @@ docs = ["furo", "jaraco.packaging (>=9.3)", "jaraco.tidelift (>=1.4)", "rst.link
 perf = ["ipython"]
 testing = ["flufl.flake8", "importlib-resources (>=1.3)", "packaging", "pyfakefs", "pytest (>=6)", "pytest-black (>=0.3.7)", "pytest-checkdocs (>=2.4)", "pytest-cov", "pytest-enabler (>=2.2)", "pytest-mypy (>=0.9.1)", "pytest-perf (>=0.9.2)", "pytest-ruff"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "importlib-resources"
 version = "6.4.5"
@@ -4091,6 +4949,11 @@ enabler = ["pytest-enabler (>=2.2)"]
 test = ["jaraco.test (>=5.4)", "pytest (>=6,!=8.1.*)", "zipp (>=3.17)"]
 type = ["pytest-mypy"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "iniconfig"
 version = "2.0.0"
@@ -4101,6 +4964,11 @@ files = [
     {file = "iniconfig-2.0.0-py3-none-any.whl", hash = "sha256:b6a85871a79d2e3b22d2d1b94ac2824226a63c6b741c88f7ae975f18b6778374"},
     {file = "iniconfig-2.0.0.tar.gz", hash = "sha256:2d91e135bf72d31a410b17c16da610a82cb55f6b0477d1a902134b24a455b8b3"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "isodate"
@@ -4113,6 +4981,11 @@ files = [
     {file = "isodate-0.7.2.tar.gz", hash = "sha256:4cd1aa0f43ca76f4a6c6c0292a85f40b35ec2e43e315b59f06e6d32171a953e6"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "itsdangerous"
 version = "2.2.0"
@@ -4124,6 +4997,11 @@ files = [
     {file = "itsdangerous-2.2.0.tar.gz", hash = "sha256:e0050c0b7da1eea53ffaf149c0cfbb5c6e2e2b69c4bef22c81fa6eb73e5f6173"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "jieba"
 version = "0.42.1"
@@ -4134,6 +5012,11 @@ files = [
     {file = "jieba-0.42.1.tar.gz", hash = "sha256:055ca12f62674fafed09427f176506079bc135638a14e23e25be909131928db2"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "jieba3k"
 version = "0.35.1"
@@ -4143,6 +5026,11 @@ python-versions = "*"
 files = [
     {file = "jieba3k-0.35.1.zip", hash = "sha256:980a4f2636b778d312518066be90c7697d410dd5a472385f5afced71a2db1c10"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "jinja2"
@@ -4160,6 +5048,11 @@ MarkupSafe = ">=2.0"
 
 [package.extras]
 i18n = ["Babel (>=2.7)"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "jiter"
@@ -4243,6 +5136,11 @@ files = [
     {file = "jiter-0.6.1.tar.gz", hash = "sha256:e19cd21221fc139fb032e4112986656cb2739e9fe6d84c13956ab30ccc7d4449"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "jmespath"
 version = "0.10.0"
@@ -4254,6 +5152,11 @@ files = [
     {file = "jmespath-0.10.0.tar.gz", hash = "sha256:b85d0567b8666149a93172712e68920734333c0ce7e89b78b3e987f71e5ed4f9"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "joblib"
 version = "1.4.2"
@@ -4264,6 +5167,11 @@ files = [
     {file = "joblib-1.4.2-py3-none-any.whl", hash = "sha256:06d478d5674cbc267e7496a410ee875abd68e4340feff4490bcb7afb88060ae6"},
     {file = "joblib-1.4.2.tar.gz", hash = "sha256:2382c5816b2636fbd20a09e0f4e9dad4736765fdfb7dca582943b9c1366b3f0e"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "jsonlines"
@@ -4279,6 +5187,11 @@ files = [
 [package.dependencies]
 attrs = ">=19.2.0"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "jsonpath-ng"
 version = "1.6.1"
@@ -4293,6 +5206,11 @@ files = [
 [package.dependencies]
 ply = "*"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "jsonpath-python"
 version = "1.0.6"
@@ -4303,6 +5221,11 @@ files = [
     {file = "jsonpath-python-1.0.6.tar.gz", hash = "sha256:dd5be4a72d8a2995c3f583cf82bf3cd1a9544cfdabf2d22595b67aff07349666"},
     {file = "jsonpath_python-1.0.6-py3-none-any.whl", hash = "sha256:1e3b78df579f5efc23565293612decee04214609208a2335884b3ee3f786b575"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "jsonschema"
@@ -4325,6 +5248,11 @@ rpds-py = ">=0.7.1"
 format = ["fqdn", "idna", "isoduration", "jsonpointer (>1.13)", "rfc3339-validator", "rfc3987", "uri-template", "webcolors (>=1.11)"]
 format-nongpl = ["fqdn", "idna", "isoduration", "jsonpointer (>1.13)", "rfc3339-validator", "rfc3986-validator (>0.1.0)", "uri-template", "webcolors (>=24.6.0)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "jsonschema-specifications"
 version = "2024.10.1"
@@ -4338,6 +5266,11 @@ files = [
 
 [package.dependencies]
 referencing = ">=0.31.0"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "kaleido"
@@ -4353,6 +5286,11 @@ files = [
     {file = "kaleido-0.2.1-py2.py3-none-win32.whl", hash = "sha256:ecc72635860be616c6b7161807a65c0dbd9b90c6437ac96965831e2e24066552"},
     {file = "kaleido-0.2.1-py2.py3-none-win_amd64.whl", hash = "sha256:4670985f28913c2d063c5734d125ecc28e40810141bdb0a46f15b76c1d45f23c"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "kiwisolver"
@@ -4477,6 +5415,11 @@ files = [
     {file = "kiwisolver-1.4.7.tar.gz", hash = "sha256:9893ff81bd7107f7b685d3017cc6583daadb4fc26e4a888350df530e41980a60"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "kombu"
 version = "5.4.2"
@@ -4510,6 +5453,11 @@ sqs = ["boto3 (>=1.26.143)", "pycurl (>=7.43.0.5)", "urllib3 (>=1.26.16)"]
 yaml = ["PyYAML (>=3.10)"]
 zookeeper = ["kazoo (>=2.8.0)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "kubernetes"
 version = "31.0.0"
@@ -4537,6 +5485,11 @@ websocket-client = ">=0.32.0,<0.40.0 || >0.40.0,<0.41.dev0 || >=0.43.dev0"
 [package.extras]
 adal = ["adal (>=1.0.2)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "langdetect"
 version = "1.0.9"
@@ -4551,12 +5504,17 @@ files = [
 [package.dependencies]
 six = "*"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "langfuse"
 version = "2.51.5"
 description = "A client library for accessing langfuse"
 optional = false
-python-versions = "<4.0,>=3.8.1"
+python-versions = ">=3.8.1,<4.0"
 files = [
     {file = "langfuse-2.51.5-py3-none-any.whl", hash = "sha256:b95401ca710ef94b521afa6541933b6f93d7cfd4a97523c8fc75bca4d6d219fb"},
     {file = "langfuse-2.51.5.tar.gz", hash = "sha256:55bc37b5c5d3ae133c1a95db09117cfb3117add110ba02ebbf2ce45ac4395c5b"},
@@ -4576,12 +5534,17 @@ langchain = ["langchain (>=0.0.309)"]
 llama-index = ["llama-index (>=0.10.12,<2.0.0)"]
 openai = ["openai (>=0.27.8)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "langsmith"
 version = "0.1.137"
 description = "Client library to connect to the LangSmith LLM Tracing and Evaluation Platform."
 optional = false
-python-versions = "<4.0,>=3.8.1"
+python-versions = ">=3.8.1,<4.0"
 files = [
     {file = "langsmith-0.1.137-py3-none-any.whl", hash = "sha256:4256d5c61133749890f7b5c88321dbb133ce0f440c621ea28e76513285859b81"},
     {file = "langsmith-0.1.137.tar.gz", hash = "sha256:56cdfcc6c74cb20a3f437d5bd144feb5bf93f54c5a2918d1e568cbd084a372d4"},
@@ -4596,6 +5559,11 @@ pydantic = [
 ]
 requests = ">=2,<3"
 requests-toolbelt = ">=1.0.0,<2.0.0"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "llvmlite"
@@ -4627,6 +5595,11 @@ files = [
     {file = "llvmlite-0.43.0.tar.gz", hash = "sha256:ae2b5b5c3ef67354824fb75517c8db5fbe93bc02cd9671f3c62271626bc041d5"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "loguru"
 version = "0.7.2"
@@ -4644,6 +5617,11 @@ win32-setctime = {version = ">=1.0.0", markers = "sys_platform == \"win32\""}
 
 [package.extras]
 dev = ["Sphinx (==7.2.5)", "colorama (==0.4.5)", "colorama (==0.4.6)", "exceptiongroup (==1.1.3)", "freezegun (==1.1.0)", "freezegun (==1.2.2)", "mypy (==v0.910)", "mypy (==v0.971)", "mypy (==v1.4.1)", "mypy (==v1.5.1)", "pre-commit (==3.4.0)", "pytest (==6.1.2)", "pytest (==7.4.0)", "pytest-cov (==2.12.1)", "pytest-cov (==4.1.0)", "pytest-mypy-plugins (==1.9.3)", "pytest-mypy-plugins (==3.0.0)", "sphinx-autobuild (==2021.3.14)", "sphinx-rtd-theme (==1.3.0)", "tox (==3.27.1)", "tox (==4.11.0)"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "lxml"
@@ -4799,6 +5777,30 @@ html5 = ["html5lib"]
 htmlsoup = ["BeautifulSoup4"]
 source = ["Cython (>=3.0.11)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
+[[package]]
+name = "lxml-html-clean"
+version = "0.2.2"
+description = "HTML cleaner from lxml project"
+optional = false
+python-versions = "*"
+files = [
+    {file = "lxml_html_clean-0.2.2-py3-none-any.whl", hash = "sha256:177ebe822b39d1b68df7c0c34ba005cb087b23d3791dae87efb3a2bb162ef398"},
+    {file = "lxml_html_clean-0.2.2.tar.gz", hash = "sha256:cc34178e34673025c49c3d7f4bd48754e9e4b23875df2308f43c21733d8437fb"},
+]
+
+[package.dependencies]
+lxml = "*"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "lz4"
 version = "4.3.3"
@@ -4849,6 +5851,11 @@ docs = ["sphinx (>=1.6.0)", "sphinx-bootstrap-theme"]
 flake8 = ["flake8"]
 tests = ["psutil", "pytest (!=3.3.0)", "pytest-cov"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "mailchimp-transactional"
 version = "1.0.56"
@@ -4865,6 +5872,11 @@ python-dateutil = ">=2.1"
 requests = ">=2.23"
 six = ">=1.10"
 urllib3 = ">=1.23"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "mako"
@@ -4885,6 +5897,30 @@ babel = ["Babel"]
 lingua = ["lingua"]
 testing = ["pytest"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
+[[package]]
+name = "mammoth"
+version = "1.8.0"
+description = "Convert Word documents from docx to simple and clean HTML and Markdown"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "mammoth-1.8.0-py2.py3-none-any.whl", hash = "sha256:b2abf2340809b13a903c8b65a27846466290b869f0dd56e4a1e3072c4be1ea86"},
+    {file = "mammoth-1.8.0.tar.gz", hash = "sha256:7e8aa7db53f4aa7e9620b22bf8b716f1a16c84e969de1a0b1f920c756184e3d8"},
+]
+
+[package.dependencies]
+cobble = ">=0.1.3,<0.2"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "markdown"
 version = "3.5.2"
@@ -4899,6 +5935,11 @@ files = [
 [package.extras]
 docs = ["mdx-gh-links (>=0.2)", "mkdocs (>=1.5)", "mkdocs-gen-files", "mkdocs-literate-nav", "mkdocs-nature (>=0.6)", "mkdocs-section-index", "mkdocstrings[python]"]
 testing = ["coverage", "pyyaml"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "markdown-it-py"
@@ -4923,6 +5964,11 @@ plugins = ["mdit-py-plugins"]
 profiling = ["gprof2dot"]
 rtd = ["jupyter_sphinx", "mdit-py-plugins", "myst-parser", "pyyaml", "sphinx", "sphinx-copybutton", "sphinx-design", "sphinx_book_theme"]
 testing = ["coverage", "pytest", "pytest-cov", "pytest-regressions"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "markupsafe"
@@ -4994,6 +6040,11 @@ files = [
     {file = "markupsafe-3.0.2.tar.gz", hash = "sha256:ee55d3edf80167e48ea11a923c7386f4669df67d7994554387f84e7d8b0a2bf0"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "marshmallow"
 version = "3.23.0"
@@ -5012,6 +6063,11 @@ packaging = ">=17.0"
 dev = ["marshmallow[tests]", "pre-commit (>=3.5,<5.0)", "tox"]
 docs = ["alabaster (==1.0.0)", "autodocsumm (==0.2.13)", "sphinx (==8.1.3)", "sphinx-issues (==5.0.0)", "sphinx-version-warning (==1.1.2)"]
 tests = ["pytest", "simplejson"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "matplotlib"
@@ -5061,6 +6117,11 @@ pillow = ">=8"
 pyparsing = ">=2.3.1"
 python-dateutil = ">=2.7"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "mdurl"
 version = "0.1.2"
@@ -5071,6 +6132,11 @@ files = [
     {file = "mdurl-0.1.2-py3-none-any.whl", hash = "sha256:84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8"},
     {file = "mdurl-0.1.2.tar.gz", hash = "sha256:bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "milvus-lite"
@@ -5088,6 +6154,11 @@ files = [
 [package.dependencies]
 tqdm = "*"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "mistune"
 version = "3.0.2"
@@ -5098,6 +6169,11 @@ files = [
     {file = "mistune-3.0.2-py3-none-any.whl", hash = "sha256:71481854c30fdbc938963d3605b72501f5c10a9320ecd412c121c163a1c7d205"},
     {file = "mistune-3.0.2.tar.gz", hash = "sha256:fc7f93ded930c92394ef2cb6f04a8aabab4117a91449e72dcc8dfa646a508be8"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "mmh3"
@@ -5212,6 +6288,11 @@ plot = ["matplotlib (==3.9.2)", "pandas (==2.2.2)"]
 test = ["pytest (==8.3.3)", "pytest-sugar (==1.0.0)"]
 type = ["mypy (==1.11.2)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "mock"
 version = "4.0.3"
@@ -5228,6 +6309,11 @@ build = ["blurb", "twine", "wheel"]
 docs = ["sphinx"]
 test = ["pytest (<5.4)", "pytest-cov"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "monotonic"
 version = "1.6"
@@ -5238,6 +6324,11 @@ files = [
     {file = "monotonic-1.6-py2.py3-none-any.whl", hash = "sha256:68687e19a14f11f26d140dd5c86f3dba4bf5df58003000ed467e0e2a69bca96c"},
     {file = "monotonic-1.6.tar.gz", hash = "sha256:3a55207bcfed53ddd5c5bae174524062935efed17792e9de2ad0205ce9ad63f7"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "mpmath"
@@ -5255,6 +6346,11 @@ develop = ["codecov", "pycodestyle", "pytest (>=4.6)", "pytest-cov", "wheel"]
 docs = ["sphinx"]
 gmpy = ["gmpy2 (>=2.1.0a4)"]
 tests = ["pytest (>=4.6)"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "msal"
@@ -5275,6 +6371,11 @@ requests = ">=2.0.0,<3"
 [package.extras]
 broker = ["pymsalruntime (>=0.14,<0.18)", "pymsalruntime (>=0.17,<0.18)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "msal-extensions"
 version = "1.2.0"
@@ -5289,6 +6390,11 @@ files = [
 [package.dependencies]
 msal = ">=1.29,<2"
 portalocker = ">=1.4,<3"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "msrest"
@@ -5310,6 +6416,11 @@ requests-oauthlib = ">=0.5.0"
 
 [package.extras]
 async = ["aiodns", "aiohttp (>=3.0)"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "multidict"
@@ -5415,6 +6526,11 @@ files = [
 [package.dependencies]
 typing-extensions = {version = ">=4.1.0", markers = "python_version < \"3.11\""}
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "multiprocess"
 version = "0.70.17"
@@ -5443,6 +6559,11 @@ files = [
 [package.dependencies]
 dill = ">=0.3.9"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "multitasking"
 version = "0.0.11"
@@ -5453,6 +6574,11 @@ files = [
     {file = "multitasking-0.0.11-py3-none-any.whl", hash = "sha256:1e5b37a5f8fc1e6cfaafd1a82b6b1cc6d2ed20037d3b89c25a84f499bd7b3dd4"},
     {file = "multitasking-0.0.11.tar.gz", hash = "sha256:4d6bc3cc65f9b2dca72fb5a787850a88dae8f620c2b36ae9b55248e51bcd6026"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "mypy-extensions"
@@ -5465,6 +6591,11 @@ files = [
     {file = "mypy_extensions-1.0.0.tar.gz", hash = "sha256:75dbf8955dc00442a438fc4d0666508a9a97b6bd41aa2f0ffe9d2f2725af0782"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "nest-asyncio"
 version = "1.6.0"
@@ -5475,6 +6606,11 @@ files = [
     {file = "nest_asyncio-1.6.0-py3-none-any.whl", hash = "sha256:87af6efd6b5e897c81050477ef65c62e2b2f35d51703cae01aff2905b1852e1c"},
     {file = "nest_asyncio-1.6.0.tar.gz", hash = "sha256:6f172d5449aca15afd6c646851f4e31e02c598d553a667e38cafa997cfec55fe"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "newspaper3k"
@@ -5502,6 +6638,11 @@ requests = ">=2.10.0"
 tinysegmenter = "0.3"
 tldextract = ">=2.0.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "nltk"
 version = "3.9.1"
@@ -5526,6 +6667,11 @@ machine-learning = ["numpy", "python-crfsuite", "scikit-learn", "scipy"]
 plot = ["matplotlib"]
 tgrep = ["pyparsing"]
 twitter = ["twython"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "nomic"
@@ -5557,6 +6703,11 @@ aws = ["boto3", "sagemaker"]
 dev = ["black (==24.3.0)", "cairosvg", "coverage", "isort", "mkautodoc", "mkdocs-jupyter", "mkdocs-material", "mkdocstrings[python]", "myst-parser", "nomic[all]", "pandas", "pillow", "pylint", "pyright", "pytest", "pytorch-lightning", "twine"]
 local = ["gpt4all (>=2.5.0,<3)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "novita-client"
 version = "0.5.7"
@@ -5572,6 +6723,11 @@ files = [
 dataclass-wizard = ">=0.22.2"
 pillow = ">=10.2.0"
 requests = ">=2.27.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "numba"
@@ -5606,6 +6762,11 @@ files = [
 [package.dependencies]
 llvmlite = "==0.43.*"
 numpy = ">=1.22,<2.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "numexpr"
@@ -5647,6 +6808,11 @@ files = [
 
 [package.dependencies]
 numpy = ">=1.13.3"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "numpy"
@@ -5693,6 +6859,11 @@ files = [
     {file = "numpy-1.26.4.tar.gz", hash = "sha256:2a02aba9ed12e4ac4eb3ea9421c420301a0c6460d9830d74a9df87efa4912010"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "oauthlib"
 version = "3.2.2"
@@ -5708,6 +6879,11 @@ files = [
 rsa = ["cryptography (>=3.0.0)"]
 signals = ["blinker (>=1.4.0)"]
 signedtoken = ["cryptography (>=3.0.0)", "pyjwt (>=2.0.0,<3)"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "oci"
@@ -5728,6 +6904,11 @@ pyOpenSSL = ">=17.5.0,<25.0.0"
 python-dateutil = ">=2.5.3,<3.0.0"
 pytz = ">=2016.10"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "odfpy"
 version = "1.4.1"
@@ -5740,6 +6921,11 @@ files = [
 
 [package.dependencies]
 defusedxml = "*"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "olefile"
@@ -5754,6 +6940,11 @@ files = [
 
 [package.extras]
 tests = ["pytest", "pytest-cov"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "onnxruntime"
@@ -5797,6 +6988,11 @@ packaging = "*"
 protobuf = "*"
 sympy = "*"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "openai"
 version = "1.52.2"
@@ -5821,6 +7017,11 @@ typing-extensions = ">=4.11,<5"
 [package.extras]
 datalib = ["numpy (>=1)", "pandas (>=1.2.3)", "pandas-stubs (>=1.1.0.11)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "opencensus"
 version = "0.11.4"
@@ -5837,6 +7038,11 @@ google-api-core = {version = ">=1.0.0,<3.0.0", markers = "python_version >= \"3.
 opencensus-context = ">=0.1.3"
 six = ">=1.16,<2.0"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "opencensus-context"
 version = "0.1.3"
@@ -5847,6 +7053,11 @@ files = [
     {file = "opencensus-context-0.1.3.tar.gz", hash = "sha256:a03108c3c10d8c80bb5ddf5c8a1f033161fa61972a9917f9b9b3a18517f0088c"},
     {file = "opencensus_context-0.1.3-py2.py3-none-any.whl", hash = "sha256:073bb0590007af276853009fac7e4bab1d523c3f03baf4cb4511ca38967c6039"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "opencensus-ext-azure"
@@ -5866,6 +7077,11 @@ opencensus = ">=0.11.4,<1.0.0"
 psutil = ">=5.6.3"
 requests = ">=2.19.0"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "opencensus-ext-logging"
 version = "0.1.1"
@@ -5880,6 +7096,11 @@ files = [
 [package.dependencies]
 opencensus = ">=0.8.0,<1.0.0"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "openpyxl"
 version = "3.1.5"
@@ -5893,6 +7114,11 @@ files = [
 
 [package.dependencies]
 et-xmlfile = "*"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "opensearch-py"
@@ -5918,6 +7144,11 @@ develop = ["black", "botocore", "coverage (<8.0.0)", "jinja2", "mock", "myst-par
 docs = ["aiohttp (>=3,<4)", "myst-parser", "sphinx", "sphinx-copybutton", "sphinx-rtd-theme"]
 kerberos = ["requests-kerberos"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "opentelemetry-api"
 version = "1.27.0"
@@ -5933,6 +7164,11 @@ files = [
 deprecated = ">=1.2.6"
 importlib-metadata = ">=6.0,<=8.4.0"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "opentelemetry-exporter-otlp-proto-common"
 version = "1.27.0"
@@ -5946,6 +7182,11 @@ files = [
 
 [package.dependencies]
 opentelemetry-proto = "1.27.0"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "opentelemetry-exporter-otlp-proto-grpc"
@@ -5967,6 +7208,11 @@ opentelemetry-exporter-otlp-proto-common = "1.27.0"
 opentelemetry-proto = "1.27.0"
 opentelemetry-sdk = ">=1.27.0,<1.28.0"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "opentelemetry-instrumentation"
 version = "0.48b0"
@@ -5982,6 +7228,11 @@ files = [
 opentelemetry-api = ">=1.4,<2.0"
 setuptools = ">=16.0"
 wrapt = ">=1.0.0,<2.0.0"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "opentelemetry-instrumentation-asgi"
@@ -6004,6 +7255,11 @@ opentelemetry-util-http = "0.48b0"
 [package.extras]
 instruments = ["asgiref (>=3.0,<4.0)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "opentelemetry-instrumentation-fastapi"
 version = "0.48b0"
@@ -6025,6 +7281,11 @@ opentelemetry-util-http = "0.48b0"
 [package.extras]
 instruments = ["fastapi (>=0.58,<1.0)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "opentelemetry-proto"
 version = "1.27.0"
@@ -6038,6 +7299,11 @@ files = [
 
 [package.dependencies]
 protobuf = ">=3.19,<5.0"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "opentelemetry-sdk"
@@ -6055,6 +7321,11 @@ opentelemetry-api = "1.27.0"
 opentelemetry-semantic-conventions = "0.48b0"
 typing-extensions = ">=3.7.4"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "opentelemetry-semantic-conventions"
 version = "0.48b0"
@@ -6070,6 +7341,11 @@ files = [
 deprecated = ">=1.2.6"
 opentelemetry-api = "1.27.0"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "opentelemetry-util-http"
 version = "0.48b0"
@@ -6080,6 +7356,11 @@ files = [
     {file = "opentelemetry_util_http-0.48b0-py3-none-any.whl", hash = "sha256:76f598af93aab50328d2a69c786beaedc8b6a7770f7a818cc307eb353debfffb"},
     {file = "opentelemetry_util_http-0.48b0.tar.gz", hash = "sha256:60312015153580cc20f322e5cdc3d3ecad80a71743235bdb77716e742814623c"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "oracledb"
@@ -6123,6 +7404,11 @@ files = [
 
 [package.dependencies]
 cryptography = ">=3.2.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "orjson"
@@ -6191,6 +7477,11 @@ files = [
     {file = "orjson-3.10.10.tar.gz", hash = "sha256:37949383c4df7b4337ce82ee35b6d7471e55195efa7dcb45ab8226ceadb0fe3b"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "oss2"
 version = "2.18.5"
@@ -6209,6 +7500,11 @@ pycryptodome = ">=3.4.7"
 requests = "!=2.9.0"
 six = "*"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "overrides"
 version = "7.7.0"
@@ -6220,6 +7516,11 @@ files = [
     {file = "overrides-7.7.0.tar.gz", hash = "sha256:55158fa3d93b98cc75299b1e67078ad9003ca27945c76162c1c0766d6f91820a"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "packaging"
 version = "24.1"
@@ -6230,6 +7531,11 @@ files = [
     {file = "packaging-24.1-py3-none-any.whl", hash = "sha256:5b8f2217dbdbd2f7f384c41c628544e6d52f2d0f53c6d0c3ea61aa5d1d7ff124"},
     {file = "packaging-24.1.tar.gz", hash = "sha256:026ed72c8ed3fcce5bf8950572258698927fd1dbda10a5e981cdf0ac37f4f002"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "pandas"
@@ -6326,6 +7632,11 @@ sql-other = ["SQLAlchemy (>=2.0.0)", "adbc-driver-postgresql (>=0.8.0)", "adbc-d
 test = ["hypothesis (>=6.46.1)", "pytest (>=7.3.2)", "pytest-xdist (>=2.2.0)"]
 xml = ["lxml (>=4.9.2)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "pathos"
 version = "0.3.3"
@@ -6343,6 +7654,11 @@ multiprocess = ">=0.70.17"
 pox = ">=0.3.5"
 ppft = ">=1.7.6.9"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "peewee"
 version = "3.17.7"
@@ -6352,6 +7668,11 @@ python-versions = "*"
 files = [
     {file = "peewee-3.17.7.tar.gz", hash = "sha256:6aefc700bd530fc6ac23fa19c9c5b47041751d92985b799169c8e318e97eabaa"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "pgvecto-rs"
@@ -6375,6 +7696,11 @@ psycopg3 = ["psycopg[binary] (>=3.1.12)"]
 sdk = ["openai (>=1.2.2)", "pgvecto_rs[sqlalchemy]"]
 sqlalchemy = ["SQLAlchemy (>=2.0.23)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "pgvector"
 version = "0.2.5"
@@ -6387,6 +7713,11 @@ files = [
 
 [package.dependencies]
 numpy = "*"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "pillow"
@@ -6480,6 +7811,11 @@ tests = ["check-manifest", "coverage", "defusedxml", "markdown2", "olefile", "pa
 typing = ["typing-extensions"]
 xmp = ["defusedxml"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "platformdirs"
 version = "4.3.6"
@@ -6496,6 +7832,11 @@ docs = ["furo (>=2024.8.6)", "proselint (>=0.14)", "sphinx (>=8.0.2)", "sphinx-a
 test = ["appdirs (==1.4.4)", "covdefaults (>=2.3)", "pytest (>=8.3.2)", "pytest-cov (>=5)", "pytest-mock (>=3.14)"]
 type = ["mypy (>=1.11.2)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "plotly"
 version = "5.24.1"
@@ -6510,6 +7851,11 @@ files = [
 [package.dependencies]
 packaging = "*"
 tenacity = ">=6.2.0"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "pluggy"
@@ -6526,6 +7872,11 @@ files = [
 dev = ["pre-commit", "tox"]
 testing = ["pytest", "pytest-benchmark"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "ply"
 version = "3.11"
@@ -6536,6 +7887,11 @@ files = [
     {file = "ply-3.11-py2.py3-none-any.whl", hash = "sha256:096f9b8350b65ebd2fd1346b12452efe5b9607f7482813ffca50c22722a807ce"},
     {file = "ply-3.11.tar.gz", hash = "sha256:00c7c1aaa88358b9c765b6d3000c6eec0ba42abca5351b095321aef446081da3"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "portalocker"
@@ -6556,12 +7912,17 @@ docs = ["sphinx (>=1.7.1)"]
 redis = ["redis"]
 tests = ["pytest (>=5.4.1)", "pytest-cov (>=2.8.1)", "pytest-mypy (>=0.8.0)", "pytest-timeout (>=2.1.0)", "redis", "sphinx (>=6.0.0)", "types-redis"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "postgrest"
 version = "0.17.2"
 description = "PostgREST client for Python. This library provides an ORM interface to PostgREST."
 optional = false
-python-versions = "<4.0,>=3.9"
+python-versions = ">=3.9,<4.0"
 files = [
     {file = "postgrest-0.17.2-py3-none-any.whl", hash = "sha256:f7c4f448e5a5e2d4c1dcf192edae9d1007c4261e9a6fb5116783a0046846ece2"},
     {file = "postgrest-0.17.2.tar.gz", hash = "sha256:445cd4e4a191e279492549df0c4e827d32f9d01d0852599bb8a6efb0f07fcf78"},
@@ -6572,6 +7933,11 @@ deprecation = ">=2.1.0,<3.0.0"
 httpx = {version = ">=0.26,<0.28", extras = ["http2"]}
 pydantic = ">=1.9,<3.0"
 strenum = {version = ">=0.4.9,<0.5.0", markers = "python_version < \"3.11\""}
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "posthog"
@@ -6596,6 +7962,11 @@ dev = ["black", "flake8", "flake8-print", "isort", "pre-commit"]
 sentry = ["django", "sentry-sdk"]
 test = ["coverage", "django", "flake8", "freezegun (==0.3.15)", "mock (>=2.0.0)", "pylint", "pytest", "pytest-timeout"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "pox"
 version = "0.3.5"
@@ -6606,6 +7977,11 @@ files = [
     {file = "pox-0.3.5-py3-none-any.whl", hash = "sha256:9e82bcc9e578b43e80a99cad80f0d8f44f4d424f0ee4ee8d4db27260a6aa365a"},
     {file = "pox-0.3.5.tar.gz", hash = "sha256:8120ee4c94e950e6e0483e050a4f0e56076e590ba0a9add19524c254bd23c2d1"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "ppft"
@@ -6620,6 +7996,11 @@ files = [
 
 [package.extras]
 dill = ["dill (>=0.3.9)"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "primp"
@@ -6641,6 +8022,11 @@ files = [
 [package.extras]
 dev = ["certifi", "pytest (>=8.1.1)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "prompt-toolkit"
 version = "3.0.48"
@@ -6654,6 +8040,11 @@ files = [
 
 [package.dependencies]
 wcwidth = "*"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "proto-plus"
@@ -6671,6 +8062,11 @@ protobuf = ">=3.19.0,<6.0.0dev"
 
 [package.extras]
 testing = ["google-api-core (>=1.31.5)"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "protobuf"
@@ -6692,12 +8088,17 @@ files = [
     {file = "protobuf-4.25.5.tar.gz", hash = "sha256:7f8249476b4a9473645db7f8ab42b02fe1488cbe5fb72fddd445e0665afd8584"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "psutil"
 version = "6.1.0"
 description = "Cross-platform lib for process and system monitoring in Python."
 optional = false
-python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*,>=2.7"
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*"
 files = [
     {file = "psutil-6.1.0-cp27-cp27m-macosx_10_9_x86_64.whl", hash = "sha256:ff34df86226c0227c52f38b919213157588a678d049688eded74c76c8ba4a5d0"},
     {file = "psutil-6.1.0-cp27-cp27m-manylinux2010_i686.whl", hash = "sha256:c0e0c00aa18ca2d3b2b991643b799a15fc8f0563d2ebb6040f64ce8dc027b942"},
@@ -6719,8 +8120,13 @@ files = [
 ]
 
 [package.extras]
-dev = ["black", "check-manifest", "coverage", "packaging", "pylint", "pyperf", "pypinfo", "pytest-cov", "requests", "rstcheck", "ruff", "sphinx", "sphinx_rtd_theme", "toml-sort", "twine", "virtualenv", "wheel"]
-test = ["pytest", "pytest-xdist", "setuptools"]
+dev = ["black", "check-manifest", "coverage", "packaging", "pylint", "pyperf", "pypinfo", "pytest-cov", "requests", "rstcheck", "ruff", "sphinx", "sphinx-rtd-theme", "toml-sort", "twine", "virtualenv", "wheel"]
+test = ["enum34", "futures", "ipaddress", "mock (==1.0.1)", "pytest (==4.6.11)", "pytest-xdist", "setuptools", "unittest2"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "psycopg2-binary"
@@ -6798,6 +8204,11 @@ files = [
     {file = "psycopg2_binary-2.9.10-cp39-cp39-win_amd64.whl", hash = "sha256:30e34c4e97964805f715206c7b789d54a78b70f3ff19fbe590104b71c45600e5"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "py"
 version = "1.11.0"
@@ -6809,6 +8220,11 @@ files = [
     {file = "py-1.11.0.tar.gz", hash = "sha256:51c75c4126074b472f746a24399ad32f6053d1b34b68d2fa41e558e6f4a98719"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "py-cpuinfo"
 version = "9.0.0"
@@ -6819,6 +8235,11 @@ files = [
     {file = "py-cpuinfo-9.0.0.tar.gz", hash = "sha256:3cdbbf3fac90dc6f118bfd64384f309edeadd902d7c8fb17f02ffa1fc3f49690"},
     {file = "py_cpuinfo-9.0.0-py3-none-any.whl", hash = "sha256:859625bc251f64e21f077d099d4162689c762b5d6a4c3c97553d56241c9674d5"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "pyarrow"
@@ -6850,6 +8271,19 @@ files = [
     {file = "pyarrow-17.0.0-cp312-cp312-win_amd64.whl", hash = "sha256:392bc9feabc647338e6c89267635e111d71edad5fcffba204425a7c8d13610d7"},
     {file = "pyarrow-17.0.0-cp38-cp38-macosx_10_15_x86_64.whl", hash = "sha256:af5ff82a04b2171415f1410cff7ebb79861afc5dae50be73ce06d6e870615204"},
     {file = "pyarrow-17.0.0-cp38-cp38-macosx_11_0_arm64.whl", hash = "sha256:edca18eaca89cd6382dfbcff3dd2d87633433043650c07375d095cd3517561d8"},
+    {file = "pyarrow-17.0.0-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:7c7916bff914ac5d4a8fe25b7a25e432ff921e72f6f2b7547d1e325c1ad9d155"},
+    {file = "pyarrow-17.0.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:f553ca691b9e94b202ff741bdd40f6ccb70cdd5fbf65c187af132f1317de6145"},
+    {file = "pyarrow-17.0.0-cp38-cp38-manylinux_2_28_aarch64.whl", hash = "sha256:0cdb0e627c86c373205a2f94a510ac4376fdc523f8bb36beab2e7f204416163c"},
+    {file = "pyarrow-17.0.0-cp38-cp38-manylinux_2_28_x86_64.whl", hash = "sha256:d7d192305d9d8bc9082d10f361fc70a73590a4c65cf31c3e6926cd72b76bc35c"},
+    {file = "pyarrow-17.0.0-cp38-cp38-win_amd64.whl", hash = "sha256:02dae06ce212d8b3244dd3e7d12d9c4d3046945a5933d28026598e9dbbda1fca"},
+    {file = "pyarrow-17.0.0-cp39-cp39-macosx_10_15_x86_64.whl", hash = "sha256:13d7a460b412f31e4c0efa1148e1d29bdf18ad1411eb6757d38f8fbdcc8645fb"},
+    {file = "pyarrow-17.0.0-cp39-cp39-macosx_11_0_arm64.whl", hash = "sha256:9b564a51fbccfab5a04a80453e5ac6c9954a9c5ef2890d1bcf63741909c3f8df"},
+    {file = "pyarrow-17.0.0-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:32503827abbc5aadedfa235f5ece8c4f8f8b0a3cf01066bc8d29de7539532687"},
+    {file = "pyarrow-17.0.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:a155acc7f154b9ffcc85497509bcd0d43efb80d6f733b0dc3bb14e281f131c8b"},
+    {file = "pyarrow-17.0.0-cp39-cp39-manylinux_2_28_aarch64.whl", hash = "sha256:dec8d129254d0188a49f8a1fc99e0560dc1b85f60af729f47de4046015f9b0a5"},
+    {file = "pyarrow-17.0.0-cp39-cp39-manylinux_2_28_x86_64.whl", hash = "sha256:a48ddf5c3c6a6c505904545c25a4ae13646ae1f8ba703c4df4a1bfe4f4006bda"},
+    {file = "pyarrow-17.0.0-cp39-cp39-win_amd64.whl", hash = "sha256:42bf93249a083aca230ba7e2786c5f673507fa97bbd9725a1e2754715151a204"},
+    {file = "pyarrow-17.0.0.tar.gz", hash = "sha256:4beca9521ed2c0921c1023e68d097d0299b62c362639ea315572a58f3f50fd28"},
 ]
 
 [package.dependencies]
@@ -6857,6 +8291,11 @@ numpy = ">=1.16.6"
 
 [package.extras]
 test = ["cffi", "hypothesis", "pandas", "pytest", "pytz"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "pyasn1"
@@ -6868,6 +8307,11 @@ files = [
     {file = "pyasn1-0.6.1-py3-none-any.whl", hash = "sha256:0d632f46f2ba09143da3a8afe9e33fb6f92fa2320ab7e886e2d0f7672af84629"},
     {file = "pyasn1-0.6.1.tar.gz", hash = "sha256:6f580d2bdd84365380830acf45550f2511469f673cb4a5ae3857a3170128b034"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "pyasn1-modules"
@@ -6883,6 +8327,11 @@ files = [
 [package.dependencies]
 pyasn1 = ">=0.4.6,<0.7.0"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "pycparser"
 version = "2.22"
@@ -6893,6 +8342,11 @@ files = [
     {file = "pycparser-2.22-py3-none-any.whl", hash = "sha256:c3702b6d3dd8c7abc1afa565d7e63d53a1d0bd86cdc24edd75470f4de499cfcc"},
     {file = "pycparser-2.22.tar.gz", hash = "sha256:491c8be9c040f5390f5bf44a5b07752bd07f56edf992381b05c701439eec10f6"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "pycryptodome"
@@ -6935,6 +8389,11 @@ files = [
     {file = "pycryptodome-3.19.1.tar.gz", hash = "sha256:8ae0dd1bcfada451c35f9e29a3e5db385caabc190f98e4a80ad02a61098fb776"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "pydantic"
 version = "2.9.2"
@@ -6954,6 +8413,11 @@ typing-extensions = {version = ">=4.6.1", markers = "python_version < \"3.13\""}
 [package.extras]
 email = ["email-validator (>=2.0.0)"]
 timezone = ["tzdata"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "pydantic-core"
@@ -7056,6 +8520,11 @@ files = [
 [package.dependencies]
 typing-extensions = ">=4.6.0,<4.7.0 || >4.7.0"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "pydantic-extra-types"
 version = "2.9.0"
@@ -7078,6 +8547,11 @@ pycountry = ["pycountry (>=23)"]
 python-ulid = ["python-ulid (>=1,<2)", "python-ulid (>=1,<3)"]
 semver = ["semver (>=3.0.2)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "pydantic-settings"
 version = "2.6.0"
@@ -7098,6 +8572,11 @@ azure-key-vault = ["azure-identity (>=1.16.0)", "azure-keyvault-secrets (>=4.8.0
 toml = ["tomli (>=2.0.1)"]
 yaml = ["pyyaml (>=6.0.1)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "pydash"
 version = "8.0.3"
@@ -7115,6 +8594,11 @@ typing-extensions = ">3.10,<4.6.0 || >4.6.0"
 [package.extras]
 dev = ["build", "coverage", "furo", "invoke", "mypy", "pytest", "pytest-cov", "pytest-mypy-testing", "ruff", "sphinx", "sphinx-autodoc-typehints", "tox", "twine", "wheel"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "pydub"
 version = "0.25.1"
@@ -7125,6 +8609,11 @@ files = [
     {file = "pydub-0.25.1-py2.py3-none-any.whl", hash = "sha256:65617e33033874b59d87db603aa1ed450633288aefead953b30bded59cb599a6"},
     {file = "pydub-0.25.1.tar.gz", hash = "sha256:980a33ce9949cab2a569606b65674d748ecbca4f0796887fd6f46173a7b0d30f"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "pygments"
@@ -7139,6 +8628,11 @@ files = [
 
 [package.extras]
 windows-terminal = ["colorama (>=0.4.6)"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "pyjwt"
@@ -7159,6 +8653,11 @@ crypto = ["cryptography (>=3.4.0)"]
 dev = ["coverage[toml] (==5.0.4)", "cryptography (>=3.4.0)", "pre-commit", "pytest (>=6.0.0,<7.0.0)", "sphinx (>=4.5.0,<5.0.0)", "sphinx-rtd-theme", "zope.interface"]
 docs = ["sphinx (>=4.5.0,<5.0.0)", "sphinx-rtd-theme", "zope.interface"]
 tests = ["coverage[toml] (==5.0.4)", "pytest (>=6.0.0,<7.0.0)"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "pymilvus"
@@ -7185,6 +8684,11 @@ bulk-writer = ["azure-storage-blob", "minio (>=7.0.0)", "pyarrow (>=12.0.0)", "r
 dev = ["black", "grpcio (==1.62.2)", "grpcio-testing (==1.62.2)", "grpcio-tools (==1.62.2)", "pytest (>=5.3.4)", "pytest-cov (>=2.8.1)", "pytest-timeout (>=1.3.4)", "ruff (>0.4.0)"]
 model = ["milvus-model (>=0.1.0)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "pymochow"
 version = "1.3.1"
@@ -7201,6 +8705,33 @@ future = "*"
 orjson = "*"
 requests = "*"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
+[[package]]
+name = "pymupdf"
+version = "1.24.12"
+description = "A high performance Python library for data extraction, analysis, conversion & manipulation of PDF (and other) documents."
+optional = false
+python-versions = ">=3.9"
+files = [
+    {file = "PyMuPDF-1.24.12-cp39-abi3-macosx_10_9_x86_64.whl", hash = "sha256:2228a46edc53bf8f83cbe5a8cf0a83bb8cf406614e6976906d3655355e079ec5"},
+    {file = "PyMuPDF-1.24.12-cp39-abi3-macosx_11_0_arm64.whl", hash = "sha256:deac1546a80afc0930ffefb9714ff8aec54210ed2b1d8ecdd44e4c2b9e0ee839"},
+    {file = "PyMuPDF-1.24.12-cp39-abi3-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:d4a387a0e98a63b1ccc326032ffe7d3982d3d92495b661ca89ea634048e11f4e"},
+    {file = "PyMuPDF-1.24.12-cp39-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:dd8e8a24601c4483ed8a3699922fe48ad0179d28121816a131ba8c4534ad5682"},
+    {file = "PyMuPDF-1.24.12-cp39-abi3-musllinux_1_2_x86_64.whl", hash = "sha256:f021d5060f946662345d62564fb06c4289d8522d4a249543e26de5f9ff3c9d06"},
+    {file = "PyMuPDF-1.24.12-cp39-abi3-win32.whl", hash = "sha256:2d099328fefdf0ee53a4146db9b05aab120b6e4d68cc4510c07a706fed19625a"},
+    {file = "PyMuPDF-1.24.12-cp39-abi3-win_amd64.whl", hash = "sha256:9017bb5c05e3480c1f5a15671be9208363e0a31307445480ac5a810672f7342e"},
+    {file = "PyMuPDF-1.24.12.tar.gz", hash = "sha256:ba6d212d7a286b6fab9024c669aa314edfcbdd5b45fa6f5ea5d463a9e7576e52"},
+]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "pymysql"
 version = "1.1.1"
@@ -7215,6 +8746,11 @@ files = [
 [package.extras]
 ed25519 = ["PyNaCl (>=1.4.0)"]
 rsa = ["cryptography"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "pyopenssl"
@@ -7234,6 +8770,11 @@ cryptography = ">=41.0.5,<44"
 docs = ["sphinx (!=5.2.0,!=5.2.0.post0,!=7.2.5)", "sphinx-rtd-theme"]
 test = ["pretend", "pytest (>=3.0.1)", "pytest-rerunfailures"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "pypandoc"
 version = "1.14"
@@ -7244,6 +8785,11 @@ files = [
     {file = "pypandoc-1.14-py3-none-any.whl", hash = "sha256:1315c7ad7fac7236dacf69a05b521ed2c3f1d0177f70e9b92bfffce6c023df22"},
     {file = "pypandoc-1.14.tar.gz", hash = "sha256:6b4c45f5f1b9fb5bb562079164806bdbbc3e837b5402bcf3f1139edc5730a197"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "pyparsing"
@@ -7258,6 +8804,11 @@ files = [
 
 [package.extras]
 diagrams = ["jinja2", "railroad-diagrams"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "pypdf"
@@ -7280,6 +8831,11 @@ docs = ["myst_parser", "sphinx", "sphinx_rtd_theme"]
 full = ["Pillow (>=8.0.0)", "PyCryptodome", "cryptography"]
 image = ["Pillow (>=8.0.0)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "pypdfium2"
 version = "4.17.0"
@@ -7301,6 +8857,11 @@ files = [
     {file = "pypdfium2-4.17.0.tar.gz", hash = "sha256:2a2b3273c4614ee2004df60ace5f387645f843418ae29f379408ee11560241c0"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "pypika"
 version = "0.48.9"
@@ -7310,6 +8871,11 @@ python-versions = "*"
 files = [
     {file = "PyPika-0.48.9.tar.gz", hash = "sha256:838836a61747e7c8380cd1b7ff638694b7a7335345d0f559b04b2cd832ad5378"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "pypng"
@@ -7322,6 +8888,11 @@ files = [
     {file = "pypng-0.20220715.0.tar.gz", hash = "sha256:739c433ba96f078315de54c0db975aee537cbc3e1d0ae4ed9aab0ca1e427e2c1"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "pyproject-hooks"
 version = "1.2.0"
@@ -7332,6 +8903,11 @@ files = [
     {file = "pyproject_hooks-1.2.0-py3-none-any.whl", hash = "sha256:9e5c6bfa8dcc30091c74b0cf803c81fdd29d94f01992a7707bc97babb1141913"},
     {file = "pyproject_hooks-1.2.0.tar.gz", hash = "sha256:1e859bd5c40fae9448642dd871adf459e5e2084186e8d2c2a79a824c970da1f8"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "pyreadline3"
@@ -7346,6 +8922,11 @@ files = [
 
 [package.extras]
 dev = ["build", "flake8", "mypy", "pytest", "twine"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "pytest"
@@ -7369,6 +8950,11 @@ tomli = {version = ">=1", markers = "python_version < \"3.11\""}
 [package.extras]
 dev = ["argcomplete", "attrs (>=19.2)", "hypothesis (>=3.56)", "mock", "pygments (>=2.7.2)", "requests", "setuptools", "xmlschema"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "pytest-benchmark"
 version = "4.0.0"
@@ -7389,6 +8975,11 @@ aspect = ["aspectlib"]
 elasticsearch = ["elasticsearch"]
 histogram = ["pygal", "pygaljs"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "pytest-env"
 version = "1.1.5"
@@ -7407,6 +8998,11 @@ tomli = {version = ">=2.0.1", markers = "python_version < \"3.11\""}
 [package.extras]
 testing = ["covdefaults (>=2.3)", "coverage (>=7.6.1)", "pytest-mock (>=3.14)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "pytest-mock"
 version = "3.14.0"
@@ -7423,6 +9019,11 @@ pytest = ">=6.2.5"
 
 [package.extras]
 dev = ["pre-commit", "pytest-asyncio", "tox"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "python-calamine"
@@ -7533,6 +9134,11 @@ files = [
     {file = "python_calamine-0.2.3.tar.gz", hash = "sha256:d6b3858c3756629d9b4a166de0facfa6c8033fa0b73dcddd3d82144f3170c0dc"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "python-dateutil"
 version = "2.8.2"
@@ -7546,6 +9152,11 @@ files = [
 
 [package.dependencies]
 six = ">=1.5"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "python-docx"
@@ -7562,6 +9173,11 @@ files = [
 lxml = ">=3.1.0"
 typing-extensions = ">=4.9.0"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "python-dotenv"
 version = "1.0.0"
@@ -7575,6 +9191,11 @@ files = [
 
 [package.extras]
 cli = ["click (>=5.0)"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "python-iso639"
@@ -7590,6 +9211,11 @@ files = [
 [package.extras]
 dev = ["black (==24.10.0)", "build (==1.2.1)", "flake8 (==7.1.1)", "pytest (==8.3.3)", "requests (==2.32.3)", "twine (==5.1.1)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "python-magic"
 version = "0.4.27"
@@ -7600,6 +9226,11 @@ files = [
     {file = "python-magic-0.4.27.tar.gz", hash = "sha256:c1ba14b08e4a5f5c31a302b7721239695b2f0f058d125bd5ce1ee36b9d9d3c3b"},
     {file = "python_magic-0.4.27-py2.py3-none-any.whl", hash = "sha256:c212960ad306f700aa0d01e5d7a325d20548ff97eb9920dcd29513174f0294d3"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "python-oxmsg"
@@ -7616,6 +9247,11 @@ files = [
 click = "*"
 olefile = "*"
 typing-extensions = ">=4.9.0"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "python-pptx"
@@ -7634,6 +9270,11 @@ Pillow = ">=3.3.2"
 typing-extensions = ">=4.9.0"
 XlsxWriter = ">=0.5.7"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "pytz"
 version = "2024.2"
@@ -7644,6 +9285,11 @@ files = [
     {file = "pytz-2024.2-py2.py3-none-any.whl", hash = "sha256:31c7c1817eb7fae7ca4b8c7ee50c72f93aa2dd863de768e1ef4245d426aa0725"},
     {file = "pytz-2024.2.tar.gz", hash = "sha256:2aa355083c50a0f93fa581709deac0c9ad65cca8a9e9beac660adcbd493c798a"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "pywin32"
@@ -7672,6 +9318,11 @@ files = [
     {file = "pywin32-308-cp39-cp39-win_amd64.whl", hash = "sha256:71b3322d949b4cc20776436a9c9ba0eeedcbc9c650daa536df63f0ff111bb920"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "pyxlsb"
 version = "1.0.10"
@@ -7682,6 +9333,11 @@ files = [
     {file = "pyxlsb-1.0.10-py2.py3-none-any.whl", hash = "sha256:87c122a9a622e35ca5e741d2e541201d28af00fb46bec492cfa9586890b120b4"},
     {file = "pyxlsb-1.0.10.tar.gz", hash = "sha256:8062d1ea8626d3f1980e8b1cfe91a4483747449242ecb61013bc2df85435f685"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "pyyaml"
@@ -7745,6 +9401,11 @@ files = [
     {file = "pyyaml-6.0.2.tar.gz", hash = "sha256:d584d9ec91ad65861cc08d42e834324ef890a082e591037abe114850ff7bbc3e"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "qdrant-client"
 version = "1.7.3"
@@ -7771,6 +9432,11 @@ urllib3 = ">=1.26.14,<3"
 [package.extras]
 fastembed = ["fastembed (==0.1.1)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "qrcode"
 version = "7.4.2"
@@ -7794,6 +9460,11 @@ maintainer = ["zest.releaser[recommended]"]
 pil = ["pillow (>=9.1.0)"]
 test = ["coverage", "pytest"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "rank-bm25"
 version = "0.2.2"
@@ -7810,6 +9481,11 @@ numpy = "*"
 
 [package.extras]
 dev = ["pytest"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "rapidfuzz"
@@ -7911,6 +9587,11 @@ files = [
 [package.extras]
 all = ["numpy"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "readabilipy"
 version = "0.2.0"
@@ -7933,12 +9614,17 @@ dev = ["coveralls", "m2r", "pycodestyle", "pyflakes", "pylint", "pytest", "pytes
 docs = ["m2r", "sphinx"]
 test = ["coveralls", "pycodestyle", "pyflakes", "pylint", "pytest", "pytest-benchmark", "pytest-cov"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "realtime"
 version = "2.0.2"
 description = ""
 optional = false
-python-versions = "<4.0,>=3.9"
+python-versions = ">=3.9,<4.0"
 files = [
     {file = "realtime-2.0.2-py3-none-any.whl", hash = "sha256:2634c915bc38807f2013f21e8bcc4d2f79870dfd81460ddb9393883d0489928a"},
     {file = "realtime-2.0.2.tar.gz", hash = "sha256:519da9325b3b8102139d51785013d592f6b2403d81fa21d838a0b0234723ed7d"},
@@ -7949,6 +9635,11 @@ aiohttp = ">=3.10.2,<4.0.0"
 python-dateutil = ">=2.8.1,<3.0.0"
 typing-extensions = ">=4.12.2,<5.0.0"
 websockets = ">=11,<13"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "redis"
@@ -7969,6 +9660,11 @@ hiredis = {version = ">1.0.0", optional = true, markers = "extra == \"hiredis\""
 hiredis = ["hiredis (>1.0.0)"]
 ocsp = ["cryptography (>=36.0.1)", "pyopenssl (==20.0.1)", "requests (>=2.26.0)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "referencing"
 version = "0.35.1"
@@ -7983,6 +9679,11 @@ files = [
 [package.dependencies]
 attrs = ">=22.2.0"
 rpds-py = ">=0.7.0"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "regex"
@@ -8087,6 +9788,11 @@ files = [
     {file = "regex-2024.9.11.tar.gz", hash = "sha256:6c188c307e8433bcb63dc1915022deb553b4203a70722fc542c363bf120a01fd"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "replicate"
 version = "0.22.0"
@@ -8106,6 +9812,11 @@ typing-extensions = ">=4.5.0"
 
 [package.extras]
 dev = ["pylint", "pyright", "pytest", "pytest-asyncio", "pytest-recording", "respx", "ruff (>=0.1.3)"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "requests"
@@ -8128,6 +9839,11 @@ urllib3 = ">=1.21.1,<3"
 socks = ["PySocks (>=1.5.6,!=1.5.7)"]
 use-chardet-on-py3 = ["chardet (>=3.0.2,<6)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "requests-file"
 version = "2.1.0"
@@ -8141,6 +9857,11 @@ files = [
 
 [package.dependencies]
 requests = ">=1.0.0"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "requests-oauthlib"
@@ -8160,6 +9881,11 @@ requests = ">=2.0.0"
 [package.extras]
 rsa = ["oauthlib[signedtoken] (>=3.0.0)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "requests-toolbelt"
 version = "1.0.0"
@@ -8173,6 +9899,11 @@ files = [
 
 [package.dependencies]
 requests = ">=2.0.1,<3.0.0"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "resend"
@@ -8188,6 +9919,11 @@ files = [
 [package.dependencies]
 requests = "2.31.0"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "retry"
 version = "0.9.2"
@@ -8202,6 +9938,11 @@ files = [
 [package.dependencies]
 decorator = ">=3.4.2"
 py = ">=1.4.26,<2.0.0"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "rich"
@@ -8221,6 +9962,11 @@ typing-extensions = {version = ">=4.0.0,<5.0", markers = "python_version < \"3.1
 
 [package.extras]
 jupyter = ["ipywidgets (>=7.5.1,<9)"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "rpds-py"
@@ -8334,6 +10080,11 @@ files = [
     {file = "rpds_py-0.20.0.tar.gz", hash = "sha256:d72a210824facfdaf8768cf2d7ca25a042c30320b3020de2fa04640920d4e121"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "rsa"
 version = "4.9"
@@ -8347,6 +10098,11 @@ files = [
 
 [package.dependencies]
 pyasn1 = ">=0.1.3"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "ruff"
@@ -8375,12 +10131,17 @@ files = [
     {file = "ruff-0.6.9.tar.gz", hash = "sha256:b076ef717a8e5bc819514ee1d602bbdca5b4420ae13a9cf61a0c0a4f53a2baa2"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "s3transfer"
 version = "0.10.3"
 description = "An Amazon S3 Transfer Manager"
 optional = false
-python-versions = ">=3.8"
+python-versions = ">= 3.8"
 files = [
     {file = "s3transfer-0.10.3-py3-none-any.whl", hash = "sha256:263ed587a5803c6c708d3ce44dc4dfedaab4c1a32e8329bab818933d79ddcf5d"},
     {file = "s3transfer-0.10.3.tar.gz", hash = "sha256:4f50ed74ab84d474ce614475e0b8d5047ff080810aac5d01ea25231cfc944b0c"},
@@ -8391,6 +10152,11 @@ botocore = ">=1.33.2,<2.0a.0"
 
 [package.extras]
 crt = ["botocore[crt] (>=1.33.2,<2.0a.0)"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "safetensors"
@@ -8524,6 +10290,11 @@ tensorflow = ["safetensors[numpy]", "tensorflow (>=2.11.0)"]
 testing = ["h5py (>=3.7.0)", "huggingface-hub (>=0.12.1)", "hypothesis (>=6.70.2)", "pytest (>=7.2.0)", "pytest-benchmark (>=4.0.0)", "safetensors[numpy]", "setuptools-rust (>=1.5.2)"]
 torch = ["safetensors[numpy]", "torch (>=1.10)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "sagemaker"
 version = "2.231.0"
@@ -8567,6 +10338,11 @@ local = ["docker (>=5.0.2,<8.0.0)", "pyyaml (>=5.4.1,<7)", "urllib3 (>=1.26.8,<3
 scipy = ["scipy (==1.10.1)"]
 test = ["accelerate (>=0.24.1,<=0.27.0)", "apache-airflow (==2.9.3)", "apache-airflow-providers-amazon (==7.2.1)", "attrs (>=23.1.0,<24)", "awslogs (==0.14.0)", "black (==24.3.0)", "build[virtualenv] (==1.2.1)", "cloudpickle (==2.2.1)", "contextlib2 (==21.6.0)", "coverage (>=5.2,<6.2)", "docker (>=5.0.2,<8.0.0)", "fabric (==2.6.0)", "fastapi (>=0.111.0)", "flake8 (==4.0.1)", "huggingface-hub (>=0.23.4)", "jinja2 (==3.1.4)", "mlflow (>=2.12.2,<2.13)", "mock (==4.0.3)", "nbformat (>=5.9,<6)", "nest-asyncio", "numpy (>=1.24.0)", "onnx (>=1.15.0)", "pandas (>=1.3.5,<1.5)", "pillow (>=10.0.1,<=11)", "pyspark (==3.3.1)", "pytest (==6.2.5)", "pytest-cov (==3.0.0)", "pytest-rerunfailures (==10.2)", "pytest-timeout (==2.1.0)", "pytest-xdist (==2.4.0)", "pyvis (==0.2.1)", "pyyaml (==6.0)", "pyyaml (>=5.4.1,<7)", "requests (==2.32.2)", "sagemaker-experiments (==0.1.35)", "sagemaker-feature-store-pyspark-3-3", "sagemaker-schema-inference-artifacts (>=0.0.5)", "schema (==0.7.5)", "scikit-learn (==1.3.0)", "scipy (==1.10.1)", "stopit (==1.1.2)", "tensorflow (>=2.1,<=2.16)", "tox (==3.24.5)", "tritonclient[http] (<2.37.0)", "urllib3 (>=1.26.8,<3.0.0)", "uvicorn (>=0.30.1)", "xgboost (>=1.6.2,<=1.7.6)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "sagemaker-core"
 version = "1.0.10"
@@ -8591,6 +10367,11 @@ rich = ">=13.0.0,<14.0.0"
 [package.extras]
 codegen = ["black (>=24.3.0,<25.0.0)", "pandas (>=2.0.0,<3.0.0)", "pylint (>=3.0.0,<4.0.0)", "pytest (>=8.0.0,<9.0.0)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "schema"
 version = "0.7.7"
@@ -8601,6 +10382,11 @@ files = [
     {file = "schema-0.7.7-py2.py3-none-any.whl", hash = "sha256:5d976a5b50f36e74e2157b47097b60002bd4d42e65425fcc9c9befadb4255dde"},
     {file = "schema-0.7.7.tar.gz", hash = "sha256:7da553abd2958a19dc2547c388cde53398b39196175a9be59ea1caf5ab0a1807"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "scikit-learn"
@@ -8646,6 +10432,11 @@ examples = ["matplotlib (>=3.3.4)", "pandas (>=1.1.5)", "plotly (>=5.14.0)", "po
 install = ["joblib (>=1.2.0)", "numpy (>=1.19.5)", "scipy (>=1.6.0)", "threadpoolctl (>=3.1.0)"]
 maintenance = ["conda-lock (==2.5.6)"]
 tests = ["black (>=24.3.0)", "matplotlib (>=3.3.4)", "mypy (>=1.9)", "numpydoc (>=1.2.0)", "pandas (>=1.1.5)", "polars (>=0.20.30)", "pooch (>=1.6.0)", "pyamg (>=4.0.0)", "pyarrow (>=12.0.0)", "pytest (>=7.1.2)", "pytest-cov (>=2.9.0)", "ruff (>=0.2.1)", "scikit-image (>=0.17.2)"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "scipy"
@@ -8697,6 +10488,11 @@ dev = ["cython-lint (>=0.12.2)", "doit (>=0.36.0)", "mypy (==1.10.0)", "pycodest
 doc = ["jupyterlite-pyodide-kernel", "jupyterlite-sphinx (>=0.13.1)", "jupytext", "matplotlib (>=3.5)", "myst-nb", "numpydoc", "pooch", "pydata-sphinx-theme (>=0.15.2)", "sphinx (>=5.0.0,<=7.3.7)", "sphinx-design (>=0.4.0)"]
 test = ["Cython", "array-api-strict (>=2.0)", "asv", "gmpy2", "hypothesis (>=6.30)", "meson", "mpmath", "ninja", "pooch", "pytest", "pytest-cov", "pytest-timeout", "pytest-xdist", "scikit-umfpack", "threadpoolctl"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "sentry-sdk"
 version = "1.44.1"
@@ -8747,6 +10543,11 @@ starlette = ["starlette (>=0.19.1)"]
 starlite = ["starlite (>=1.48)"]
 tornado = ["tornado (>=5)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "setuptools"
 version = "75.2.0"
@@ -8767,6 +10568,11 @@ enabler = ["pytest-enabler (>=2.2)"]
 test = ["build[virtualenv] (>=1.0.3)", "filelock (>=3.4.0)", "ini2toml[lite] (>=0.14)", "jaraco.develop (>=7.21)", "jaraco.envs (>=2.2)", "jaraco.path (>=3.2.0)", "jaraco.test", "packaging (>=23.2)", "pip (>=19.1)", "pyproject-hooks (!=1.1)", "pytest (>=6,!=8.1.*)", "pytest-home (>=0.5)", "pytest-perf", "pytest-subprocess", "pytest-timeout", "pytest-xdist (>=3)", "tomli-w (>=1.0.0)", "virtualenv (>=13.0.0)", "wheel (>=0.44.0)"]
 type = ["importlib-metadata (>=7.0.2)", "jaraco.develop (>=7.21)", "mypy (==1.11.*)", "pytest-mypy"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "sgmllib3k"
 version = "1.0.0"
@@ -8776,6 +10582,11 @@ python-versions = "*"
 files = [
     {file = "sgmllib3k-1.0.0.tar.gz", hash = "sha256:7868fb1c8bfa764c1ac563d3cf369c381d1325d36124933a726f29fcdaa812e9"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "shapely"
@@ -8835,6 +10646,11 @@ numpy = ">=1.14,<3"
 docs = ["matplotlib", "numpydoc (==1.1.*)", "sphinx", "sphinx-book-theme", "sphinx-remove-toctrees"]
 test = ["pytest", "pytest-cov"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "shellingham"
 version = "1.5.4"
@@ -8845,6 +10661,11 @@ files = [
     {file = "shellingham-1.5.4-py2.py3-none-any.whl", hash = "sha256:7ecfff8f2fd72616f7481040475a65b2bf8af90a56c89140852d1120324e8686"},
     {file = "shellingham-1.5.4.tar.gz", hash = "sha256:8dbca0739d487e5bd35ab3ca4b36e11c4078f3a234bfce294b0a0291363404de"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "simple-websocket"
@@ -8864,6 +10685,11 @@ wsproto = "*"
 dev = ["flake8", "pytest", "pytest-cov", "tox"]
 docs = ["sphinx"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "six"
 version = "1.16.0"
@@ -8874,6 +10700,11 @@ files = [
     {file = "six-1.16.0-py2.py3-none-any.whl", hash = "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"},
     {file = "six-1.16.0.tar.gz", hash = "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "smdebug-rulesconfig"
@@ -8886,6 +10717,11 @@ files = [
     {file = "smdebug_rulesconfig-1.0.1.tar.gz", hash = "sha256:7a19e6eb2e6bcfefbc07e4a86ef7a88f32495001a038bf28c7d8e77ab793fcd6"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "sniffio"
 version = "1.3.1"
@@ -8896,6 +10732,11 @@ files = [
     {file = "sniffio-1.3.1-py3-none-any.whl", hash = "sha256:2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2"},
     {file = "sniffio-1.3.1.tar.gz", hash = "sha256:f4324edc670a0f49750a81b895f35c3adb843cca46f0530f79fc1babb23789dc"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "socksio"
@@ -8908,6 +10749,11 @@ files = [
     {file = "socksio-1.0.0.tar.gz", hash = "sha256:f88beb3da5b5c38b9890469de67d0cb0f9d494b78b106ca1845f96c10b91c4ac"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "soupsieve"
 version = "2.6"
@@ -8918,6 +10764,11 @@ files = [
     {file = "soupsieve-2.6-py3-none-any.whl", hash = "sha256:e72c4ff06e4fb6e4b5a9f0f55fe6e81514581fca1515028625d0f299c602ccc9"},
     {file = "soupsieve-2.6.tar.gz", hash = "sha256:e2e68417777af359ec65daac1057404a3c8a5455bb8abc36f1a9866ab1a51abb"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "sqlalchemy"
@@ -8992,7 +10843,7 @@ typing-extensions = ">=4.6.0"
 [package.extras]
 aiomysql = ["aiomysql (>=0.2.0)", "greenlet (!=0.4.17)"]
 aioodbc = ["aioodbc", "greenlet (!=0.4.17)"]
-aiosqlite = ["aiosqlite", "greenlet (!=0.4.17)", "typing_extensions (!=3.10.0.1)"]
+aiosqlite = ["aiosqlite", "greenlet (!=0.4.17)", "typing-extensions (!=3.10.0.1)"]
 asyncio = ["greenlet (!=0.4.17)"]
 asyncmy = ["asyncmy (>=0.2.3,!=0.2.4,!=0.2.6)", "greenlet (!=0.4.17)"]
 mariadb-connector = ["mariadb (>=1.0.1,!=1.1.2,!=1.1.5,!=1.1.10)"]
@@ -9002,7 +10853,7 @@ mssql-pyodbc = ["pyodbc"]
 mypy = ["mypy (>=0.910)"]
 mysql = ["mysqlclient (>=1.4.0)"]
 mysql-connector = ["mysql-connector-python"]
-oracle = ["cx_oracle (>=8)"]
+oracle = ["cx-oracle (>=8)"]
 oracle-oracledb = ["oracledb (>=1.0.1)"]
 postgresql = ["psycopg2 (>=2.7)"]
 postgresql-asyncpg = ["asyncpg", "greenlet (!=0.4.17)"]
@@ -9012,7 +10863,12 @@ postgresql-psycopg2binary = ["psycopg2-binary"]
 postgresql-psycopg2cffi = ["psycopg2cffi"]
 postgresql-psycopgbinary = ["psycopg[binary] (>=3.0.7)"]
 pymysql = ["pymysql"]
-sqlcipher = ["sqlcipher3_binary"]
+sqlcipher = ["sqlcipher3-binary"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "sqlparse"
@@ -9028,6 +10884,11 @@ files = [
 [package.extras]
 dev = ["build", "hatch"]
 doc = ["sphinx"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "starlette"
@@ -9046,12 +10907,17 @@ anyio = ">=3.4.0,<5"
 [package.extras]
 full = ["httpx (>=0.22.0)", "itsdangerous", "jinja2", "python-multipart (>=0.0.7)", "pyyaml"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "storage3"
 version = "0.8.2"
 description = "Supabase Storage client for Python."
 optional = false
-python-versions = "<4.0,>=3.9"
+python-versions = ">=3.9,<4.0"
 files = [
     {file = "storage3-0.8.2-py3-none-any.whl", hash = "sha256:f2e995b18c77a2a9265d1a33047d43e4d6abb11eb3ca5067959f68281c305de3"},
     {file = "storage3-0.8.2.tar.gz", hash = "sha256:db05d3fe8fb73bd30c814c4c4749664f37a5dfc78b629e8c058ef558c2b89f5a"},
@@ -9061,6 +10927,11 @@ files = [
 httpx = {version = ">=0.26,<0.28", extras = ["http2"]}
 python-dateutil = ">=2.8.2,<3.0.0"
 typing-extensions = ">=4.2.0,<5.0.0"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "strenum"
@@ -9078,6 +10949,11 @@ docs = ["myst-parser[linkify]", "sphinx", "sphinx-rtd-theme"]
 release = ["twine"]
 test = ["pylint", "pytest", "pytest-black", "pytest-cov", "pytest-pylint"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "strictyaml"
 version = "1.7.3"
@@ -9092,12 +10968,17 @@ files = [
 [package.dependencies]
 python-dateutil = ">=2.6.0"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "supabase"
 version = "2.8.1"
 description = "Supabase client for Python."
 optional = false
-python-versions = "<4.0,>=3.9"
+python-versions = ">=3.9,<4.0"
 files = [
     {file = "supabase-2.8.1-py3-none-any.whl", hash = "sha256:dfa8bef89b54129093521d5bba2136ff765baf67cd76d8ad0aa4984d61a7815c"},
     {file = "supabase-2.8.1.tar.gz", hash = "sha256:711c70e6acd9e2ff48ca0dc0b1bb70c01c25378cc5189ec9f5ed9655b30bc41d"},
@@ -9112,12 +10993,17 @@ storage3 = ">=0.8.0,<0.9.0"
 supafunc = ">=0.6.0,<0.7.0"
 typing-extensions = ">=4.12.2,<5.0.0"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "supafunc"
 version = "0.6.2"
 description = "Library for Supabase Functions"
 optional = false
-python-versions = "<4.0,>=3.9"
+python-versions = ">=3.9,<4.0"
 files = [
     {file = "supafunc-0.6.2-py3-none-any.whl", hash = "sha256:101b30616b0a1ce8cf938eca1df362fa4cf1deacb0271f53ebbd674190fb0da5"},
     {file = "supafunc-0.6.2.tar.gz", hash = "sha256:c7dfa20db7182f7fe4ae436e94e05c06cd7ed98d697fed75d68c7b9792822adc"},
@@ -9125,6 +11011,11 @@ files = [
 
 [package.dependencies]
 httpx = {version = ">=0.26,<0.28", extras = ["http2"]}
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "sympy"
@@ -9143,6 +11034,11 @@ mpmath = ">=1.1.0,<1.4"
 [package.extras]
 dev = ["hypothesis (>=6.70.0)", "pytest (>=7.1.0)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "tabulate"
 version = "0.9.0"
@@ -9157,6 +11053,11 @@ files = [
 [package.extras]
 widechars = ["wcwidth"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "tblib"
 version = "3.0.0"
@@ -9167,6 +11068,11 @@ files = [
     {file = "tblib-3.0.0-py3-none-any.whl", hash = "sha256:80a6c77e59b55e83911e1e607c649836a69c103963c5f28a46cbeef44acf8129"},
     {file = "tblib-3.0.0.tar.gz", hash = "sha256:93622790a0a29e04f0346458face1e144dc4d32f493714c6c3dff82a4adb77e6"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "tcvectordb"
@@ -9183,6 +11089,11 @@ files = [
 cos-python-sdk-v5 = ">=1.9.26"
 requests = "*"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "tenacity"
 version = "9.0.0"
@@ -9198,6 +11109,11 @@ files = [
 doc = ["reno", "sphinx"]
 test = ["pytest", "tornado (>=4.5)", "typeguard"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "tencentcloud-sdk-python-common"
 version = "3.0.1257"
@@ -9211,6 +11127,11 @@ files = [
 
 [package.dependencies]
 requests = ">=2.16.0"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "tencentcloud-sdk-python-hunyuan"
@@ -9226,6 +11147,11 @@ files = [
 [package.dependencies]
 tencentcloud-sdk-python-common = "3.0.1257"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "threadpoolctl"
 version = "3.5.0"
@@ -9237,12 +11163,17 @@ files = [
     {file = "threadpoolctl-3.5.0.tar.gz", hash = "sha256:082433502dd922bf738de0d8bcc4fdcbf0979ff44c42bd40f5af8a282f6fa107"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "tidb-vector"
 version = "0.0.9"
 description = "A Python client for TiDB Vector"
 optional = false
-python-versions = "<4.0,>=3.8.1"
+python-versions = ">=3.8.1,<4.0"
 files = [
     {file = "tidb_vector-0.0.9-py3-none-any.whl", hash = "sha256:db060ee1c981326d3882d0810e0b8b57811f278668f9381168997b360c4296c2"},
     {file = "tidb_vector-0.0.9.tar.gz", hash = "sha256:e10680872532808e1bcffa7a92dd2b05bb65d63982f833edb3c6cd590dec7709"},
@@ -9253,6 +11184,11 @@ numpy = ">=1,<2"
 
 [package.extras]
 client = ["SQLAlchemy (>=1.4,<3)"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "tiktoken"
@@ -9301,6 +11237,11 @@ requests = ">=2.26.0"
 [package.extras]
 blobfile = ["blobfile (>=2)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "tinysegmenter"
 version = "0.3"
@@ -9310,6 +11251,11 @@ python-versions = "*"
 files = [
     {file = "tinysegmenter-0.3.tar.gz", hash = "sha256:ed1f6d2e806a4758a73be589754384cbadadc7e1a414c81a166fc9adf2d40c6d"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "tldextract"
@@ -9331,6 +11277,11 @@ requests-file = ">=1.4"
 [package.extras]
 release = ["build", "twine"]
 testing = ["black", "mypy", "pytest", "pytest-gitignore", "pytest-mock", "responses", "ruff", "syrupy", "tox", "types-filelock", "types-requests"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "tokenizers"
@@ -9459,6 +11410,11 @@ dev = ["tokenizers[testing]"]
 docs = ["setuptools_rust", "sphinx", "sphinx_rtd_theme"]
 testing = ["black (==22.3)", "datasets", "numpy", "pytest", "requests"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "toml"
 version = "0.10.2"
@@ -9470,6 +11426,11 @@ files = [
     {file = "toml-0.10.2.tar.gz", hash = "sha256:b3bda1d108d5dd99f4a20d24d9c348e91c4db7ab1b749200bded2f839ccbe68f"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "tomli"
 version = "2.0.2"
@@ -9480,6 +11441,11 @@ files = [
     {file = "tomli-2.0.2-py3-none-any.whl", hash = "sha256:2ebe24485c53d303f690b0ec092806a085f07af5a5aa1464f3931eec36caaa38"},
     {file = "tomli-2.0.2.tar.gz", hash = "sha256:d46d457a85337051c36524bc5349dd91b1877838e2979ac5ced3e710ed8a60ed"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "tos"
@@ -9497,6 +11463,11 @@ Deprecated = ">=1.2.13,<2.0.0"
 pytz = "*"
 requests = ">=2.19.1,<3.dev0"
 six = "*"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "tqdm"
@@ -9517,6 +11488,11 @@ dev = ["pytest (>=6)", "pytest-cov", "pytest-timeout", "pytest-xdist"]
 notebook = ["ipywidgets (>=6)"]
 slack = ["slack-sdk"]
 telegram = ["requests"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "transformers"
@@ -9586,6 +11562,11 @@ torchhub = ["filelock", "huggingface-hub (>=0.16.4,<1.0)", "importlib-metadata",
 video = ["av (==9.2.0)", "decord (==0.6.0)"]
 vision = ["Pillow (<10.0.0)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "twilio"
 version = "9.0.5"
@@ -9602,6 +11583,11 @@ aiohttp = ">=3.8.4"
 aiohttp-retry = ">=2.8.3"
 PyJWT = ">=2.0.0,<3.0.0"
 requests = ">=2.0.0"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "typer"
@@ -9620,6 +11606,11 @@ rich = ">=10.11.0"
 shellingham = ">=1.3.0"
 typing-extensions = ">=3.7.4.3"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "types-requests"
 version = "2.32.0.20241016"
@@ -9634,6 +11625,11 @@ files = [
 [package.dependencies]
 urllib3 = ">=2"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "typing-extensions"
 version = "4.12.2"
@@ -9644,6 +11640,11 @@ files = [
     {file = "typing_extensions-4.12.2-py3-none-any.whl", hash = "sha256:04e5ca0351e0f3f85c6853954072df659d0d13fac324d0072316b67d7794700d"},
     {file = "typing_extensions-4.12.2.tar.gz", hash = "sha256:1a7ead55c7e559dd4dee8856e3a88b41225abfe1ce8df57b7c13915fe121ffb8"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "typing-inspect"
@@ -9660,6 +11661,11 @@ files = [
 mypy-extensions = ">=0.3.0"
 typing-extensions = ">=3.7.4"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "tzdata"
 version = "2024.2"
@@ -9670,6 +11676,11 @@ files = [
     {file = "tzdata-2024.2-py2.py3-none-any.whl", hash = "sha256:a48093786cdcde33cad18c2555e8532f34422074448fbc874186f0abd79565cd"},
     {file = "tzdata-2024.2.tar.gz", hash = "sha256:7d85cc416e9382e69095b7bdf4afd9e3880418a2413feec7069d533d6b4e31cc"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "ujson"
@@ -9758,12 +11769,17 @@ files = [
     {file = "ujson-5.10.0.tar.gz", hash = "sha256:b3cd8f3c5d8c7738257f1018880444f7b7d9b66232c64649f562d7ba86ad4bc1"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "unstructured"
 version = "0.16.1"
 description = "A library that prepares raw documents for downstream ML tasks."
 optional = false
-python-versions = "<3.13,>=3.9.0"
+python-versions = ">=3.9.0,<3.13"
 files = [
     {file = "unstructured-0.16.1-py3-none-any.whl", hash = "sha256:7512281a2917809a563cbb186876b77d5a361e1f3089eca61e9219aecd1218f9"},
     {file = "unstructured-0.16.1.tar.gz", hash = "sha256:03608b5189a004412cd618ce2d083ff926c56dbbca41b41c92e08ffa9e2bac3a"},
@@ -9817,12 +11833,17 @@ rtf = ["pypandoc"]
 tsv = ["pandas"]
 xlsx = ["networkx", "openpyxl", "pandas", "xlrd"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "unstructured-client"
 version = "0.26.1"
 description = "Python Client SDK for Unstructured API"
 optional = false
-python-versions = "<4.0,>=3.8"
+python-versions = ">=3.8,<4.0"
 files = [
     {file = "unstructured_client-0.26.1-py3-none-any.whl", hash = "sha256:b8b839d477122bab3f37242cbe44b39f7eb7b564b07b53500321f953710119b6"},
     {file = "unstructured_client-0.26.1.tar.gz", hash = "sha256:907cceb470529b45b0fddb2d0f1bbf4d6568f347c757ab68639a7bb620ec2484"},
@@ -9840,12 +11861,17 @@ python-dateutil = "2.8.2"
 requests-toolbelt = ">=1.0.0"
 typing-inspect = ">=0.9.0,<0.10.0"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "upstash-vector"
 version = "0.6.0"
 description = "Serverless Vector SDK from Upstash"
 optional = false
-python-versions = "<4.0,>=3.8"
+python-versions = ">=3.8,<4.0"
 files = [
     {file = "upstash_vector-0.6.0-py3-none-any.whl", hash = "sha256:d0bdad7765b8a7f5c205b7a9c81ca4b9a4cee3ee4952afc7d5ea5fb76c3f3c3c"},
     {file = "upstash_vector-0.6.0.tar.gz", hash = "sha256:a716ed4d0251362208518db8b194158a616d37d1ccbb1155f619df690599e39b"},
@@ -9853,6 +11879,11 @@ files = [
 
 [package.dependencies]
 httpx = ">=0.23.0,<1"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "uritemplate"
@@ -9864,6 +11895,11 @@ files = [
     {file = "uritemplate-4.1.1-py2.py3-none-any.whl", hash = "sha256:830c08b8d99bdd312ea4ead05994a38e8936266f84b9a7878232db50b044e02e"},
     {file = "uritemplate-4.1.1.tar.gz", hash = "sha256:4346edfc5c3b79f694bccd6d6099a322bbeb628dbf2cd86eea55a456ce5124f0"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "urllib3"
@@ -9881,6 +11917,11 @@ brotli = ["brotli (>=1.0.9)", "brotlicffi (>=0.8.0)"]
 h2 = ["h2 (>=4,<5)"]
 socks = ["pysocks (>=1.5.6,!=1.5.7,<2.0)"]
 zstd = ["zstandard (>=0.18.0)"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "uvicorn"
@@ -9907,6 +11948,11 @@ websockets = {version = ">=10.4", optional = true, markers = "extra == \"standar
 
 [package.extras]
 standard = ["colorama (>=0.4)", "httptools (>=0.5.0)", "python-dotenv (>=0.13)", "pyyaml (>=5.1)", "uvloop (>=0.14.0,!=0.15.0,!=0.15.1)", "watchfiles (>=0.13)", "websockets (>=10.4)"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "uvloop"
@@ -9959,6 +12005,11 @@ dev = ["Cython (>=3.0,<4.0)", "setuptools (>=60)"]
 docs = ["Sphinx (>=4.1.2,<4.2.0)", "sphinx-rtd-theme (>=0.5.2,<0.6.0)", "sphinxcontrib-asyncio (>=0.3.0,<0.4.0)"]
 test = ["aiohttp (>=3.10.5)", "flake8 (>=5.0,<6.0)", "mypy (>=0.800)", "psutil", "pyOpenSSL (>=23.0.0,<23.1.0)", "pycodestyle (>=2.9.0,<2.10.0)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "validators"
 version = "0.21.0"
@@ -9969,6 +12020,11 @@ files = [
     {file = "validators-0.21.0-py3-none-any.whl", hash = "sha256:3470db6f2384c49727ee319afa2e97aec3f8fad736faa6067e0fd7f9eaf2c551"},
     {file = "validators-0.21.0.tar.gz", hash = "sha256:245b98ab778ed9352a7269c6a8f6c2a839bed5b2a7e3e60273ce399d247dd4b3"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "vanna"
@@ -10027,6 +12083,11 @@ vllm = ["vllm"]
 weaviate = ["weaviate-client"]
 zhipuai = ["zhipuai"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "vine"
 version = "5.1.0"
@@ -10037,6 +12098,11 @@ files = [
     {file = "vine-5.1.0-py3-none-any.whl", hash = "sha256:40fdf3c48b2cfe1c38a49e9ae2da6fda88e4794c810050a728bd7413811fb1dc"},
     {file = "vine-5.1.0.tar.gz", hash = "sha256:8b62e981d35c41049211cf62a0a1242d8c1ee9bd15bb196ce38aefd6799e61e0"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "volcengine-compat"
@@ -10057,6 +12123,11 @@ pytz = ">=2020.5"
 requests = ">=2.25.1"
 retry = ">=0.9.2"
 six = ">=1.0"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "volcengine-python-sdk"
@@ -10079,6 +12150,11 @@ urllib3 = ">=1.23"
 
 [package.extras]
 ark = ["anyio (>=3.5.0,<5)", "cached-property", "httpx (>=0.23.0,<1)", "pydantic (>=1.9.0,<3)"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "watchfiles"
@@ -10175,6 +12251,11 @@ files = [
 [package.dependencies]
 anyio = ">=3.0.0"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "wcwidth"
 version = "0.2.13"
@@ -10185,6 +12266,11 @@ files = [
     {file = "wcwidth-0.2.13-py2.py3-none-any.whl", hash = "sha256:3da69048e4540d84af32131829ff948f1e022c1c6bdb8d6102117aac784f6859"},
     {file = "wcwidth-0.2.13.tar.gz", hash = "sha256:72ea0c06399eb286d978fdedb6923a9eb47e1c486ce63e9b4e64fc18303972b5"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "weaviate-client"
@@ -10206,6 +12292,11 @@ validators = ">=0.18.2,<=0.21.0"
 [package.extras]
 grpc = ["grpcio", "grpcio-tools"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "webencodings"
 version = "0.5.1"
@@ -10216,6 +12307,11 @@ files = [
     {file = "webencodings-0.5.1-py2.py3-none-any.whl", hash = "sha256:a0af1213f3c2226497a97e2b3aa01a7e4bee4f403f95be16fc9acd2947514a78"},
     {file = "webencodings-0.5.1.tar.gz", hash = "sha256:b36a1c245f2d304965eb4e0a82848379241dc04b865afcc4aab16748587e1923"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "websocket-client"
@@ -10232,6 +12328,11 @@ files = [
 docs = ["Sphinx (>=6.0)", "sphinx-rtd-theme (>=1.1.0)"]
 optional = ["python-socks", "wsaccel"]
 test = ["websockets"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "websockets"
@@ -10314,6 +12415,11 @@ files = [
     {file = "websockets-12.0.tar.gz", hash = "sha256:81df9cbcbb6c260de1e007e58c011bfebe2dafc8435107b0537f393dd38c8b1b"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "werkzeug"
 version = "3.0.4"
@@ -10331,6 +12437,11 @@ MarkupSafe = ">=2.1.1"
 [package.extras]
 watchdog = ["watchdog (>=2.3)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "wikipedia"
 version = "1.4.0"
@@ -10345,6 +12456,11 @@ files = [
 beautifulsoup4 = "*"
 requests = ">=2.0.0,<3.0.0"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "win32-setctime"
 version = "1.1.0"
@@ -10358,6 +12474,11 @@ files = [
 
 [package.extras]
 dev = ["black (>=19.3b0)", "pytest (>=4.6.2)"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "wrapt"
@@ -10438,6 +12559,11 @@ files = [
     {file = "wrapt-1.16.0.tar.gz", hash = "sha256:5f370f952971e7d17c7d1ead40e49f32345a7f7a5373571ef44d800d06b1899d"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "wsproto"
 version = "1.2.0"
@@ -10451,6 +12577,11 @@ files = [
 
 [package.dependencies]
 h11 = ">=0.9.0,<1"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "xinference-client"
@@ -10471,6 +12602,11 @@ typing-extensions = "*"
 [package.extras]
 dev = ["black", "cython (>=0.29)", "flake8 (>=3.8.0)", "ipython (>=6.5.0)", "pytest (>=3.5.0)", "pytest-asyncio (>=0.14.0)", "pytest-cov (>=2.5.0)", "pytest-forked (>=1.0)", "pytest-mock (>=3.11.1)", "pytest-timeout (>=1.2.0)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "xlrd"
 version = "2.0.1"
@@ -10487,6 +12623,11 @@ build = ["twine", "wheel"]
 docs = ["sphinx"]
 test = ["pytest", "pytest-cov"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "xlsxwriter"
 version = "3.2.0"
@@ -10498,6 +12639,11 @@ files = [
     {file = "XlsxWriter-3.2.0.tar.gz", hash = "sha256:9977d0c661a72866a61f9f7a809e25ebbb0fb7036baa3b9fe74afcfca6b3cb8c"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "xmltodict"
 version = "0.14.2"
@@ -10508,6 +12654,11 @@ files = [
     {file = "xmltodict-0.14.2-py2.py3-none-any.whl", hash = "sha256:20cc7d723ed729276e808f26fb6b3599f786cbc37e06c65e192ba77c40f20aac"},
     {file = "xmltodict-0.14.2.tar.gz", hash = "sha256:201e7c28bb210e374999d1dde6382923ab0ed1a8a5faeece48ab525b7810a553"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "yarl"
@@ -10614,6 +12765,11 @@ files = [
 idna = ">=2.0"
 multidict = ">=4.0"
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "yfinance"
 version = "0.2.46"
@@ -10642,12 +12798,17 @@ requests = ">=2.31"
 nospam = ["requests-cache (>=1.0)", "requests-ratelimiter (>=0.3.1)"]
 repair = ["scipy (>=1.6.3)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "zhipuai"
 version = "2.1.5.20230904"
 description = "A SDK library for accessing big model apis from ZhipuAI"
 optional = false
-python-versions = "!=2.7.*,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*,!=3.6.*,!=3.7.*,>=3.8"
+python-versions = ">=3.8, !=2.7.*, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*, !=3.6.*, !=3.7.*"
 files = [
     {file = "zhipuai-2.1.5.20230904-py3-none-any.whl", hash = "sha256:8485ca452c2f07fea476fb0666abc8fbbdf1b2e4feeee46a3bb3c1a2b51efccd"},
     {file = "zhipuai-2.1.5.20230904.tar.gz", hash = "sha256:2c19dd796b12e2f19b93d8f9be6fd01e85d3320737a187ebf3c75a9806a7c2b5"},
@@ -10659,6 +12820,11 @@ httpx = ">=0.23.0"
 pydantic = ">=1.9.0,<3.0"
 pydantic-core = ">=2.14.6"
 pyjwt = ">=2.8.0,<2.9.0"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "zipp"
@@ -10679,6 +12845,11 @@ enabler = ["pytest-enabler (>=2.2)"]
 test = ["big-O", "importlib-resources", "jaraco.functools", "jaraco.itertools", "jaraco.test", "more-itertools", "pytest (>=6,!=8.1.*)", "pytest-ignore-flaky"]
 type = ["pytest-mypy"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [[package]]
 name = "zope-event"
 version = "5.0"
@@ -10696,6 +12867,11 @@ setuptools = "*"
 [package.extras]
 docs = ["Sphinx"]
 test = ["zope.testrunner"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "zope-interface"
@@ -10750,6 +12926,11 @@ setuptools = "*"
 docs = ["Sphinx", "furo", "repoze.sphinx.autointerface"]
 test = ["coverage[toml]", "zope.event", "zope.testing"]
 testing = ["coverage[toml]", "zope.event", "zope.testing"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
 
 [[package]]
 name = "zstandard"
@@ -10863,7 +13044,12 @@ cffi = {version = ">=1.11", markers = "platform_python_implementation == \"PyPy\
 [package.extras]
 cffi = ["cffi (>=1.11)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "mirrors"
+
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10,<3.13"
-content-hash = "1b268122d3d4771ba219f0e983322e0454b7b8644dba35da38d7d950d489e1ba"
+content-hash = "e4740a20b829397f3d74e3b7682d893a04b938ec7c7a25fdcbd58a3bddac2b62"
