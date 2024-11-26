@@ -242,6 +242,7 @@ x-shared-env: &shared-api-worker-env
   EXTRANET_CASE_URI: ${EXTRANET_CASE_URI:-}
   LOCAL_URI: ${LOCAL_CASE_URI:-}
   EXTRANET_URI: ${EXTRANET_CASE_URI:-}
+  BETTER_FILE_DIR: ${EXTRANET_CASE_URI:-/better_files}
 
 services:
   # API service
@@ -259,6 +260,7 @@ services:
     volumes:
       # Mount the storage directory to the container, for storing user files.
       - ./volumes/app/storage:/app/api/storage
+      - ./volumes/app/better_files:/better_files
     networks:
       - ssrf_proxy_network
       - default
