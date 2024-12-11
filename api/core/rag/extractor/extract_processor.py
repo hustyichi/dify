@@ -7,13 +7,13 @@ from urllib.parse import unquote
 from dify_rag.extractor.html_extractor import HtmlExtractor
 from dify_rag.extractor.markdown_extractor import MarkdownExtractor
 from dify_rag.extractor.pdf_extractor import PdfExtractor
+from dify_rag.extractor.excel_extractor import ExcelExtractor 
+from dify_rag.extractor.csv_extractor import CSVExtractor 
 
 from configs import dify_config
 from core.helper import ssrf_proxy
-from core.rag.extractor.csv_extractor import CSVExtractor
 from core.rag.extractor.entity.datasource_type import DatasourceType
 from core.rag.extractor.entity.extract_setting import ExtractSetting
-from core.rag.extractor.excel_extractor import ExcelExtractor
 from core.rag.extractor.firecrawl.firecrawl_web_extractor import FirecrawlWebExtractor
 from core.rag.extractor.jina_reader_extractor import JinaReaderWebExtractor
 from core.rag.extractor.notion_extractor import NotionExtractor
@@ -101,7 +101,7 @@ class ExtractProcessor:
                 unstructured_api_key = dify_config.UNSTRUCTURED_API_KEY
                 if etl_type == "Unstructured":
                     if file_extension in {".xlsx", ".xls"}:
-                        extractor = ExcelExtractor(file_path)
+                        extractor = ExcelExtractor(file_path, file_name=upload_file.name)
                     elif file_extension == ".pdf":
                         extractor = PdfExtractor(file_path)
                     elif file_extension in {".md", ".markdown"}:
@@ -115,7 +115,7 @@ class ExtractProcessor:
                     elif file_extension == ".docx":
                         extractor = WordExtractor(file_path, upload_file.tenant_id, upload_file.created_by)
                     elif file_extension == ".csv":
-                        extractor = CSVExtractor(file_path, autodetect_encoding=True)
+                        extractor = CSVExtractor(file_path, file_name=upload_file.name, autodetect_encoding=True)
                     elif file_extension == ".msg":
                         extractor = UnstructuredMsgExtractor(file_path, unstructured_api_url, unstructured_api_key)
                     elif file_extension == ".eml":
@@ -139,7 +139,7 @@ class ExtractProcessor:
                         )
                 else:
                     if file_extension in {".xlsx", ".xls"}:
-                        extractor = ExcelExtractor(file_path)
+                        extractor = ExcelExtractor(file_path, file_name=upload_file.name)
                     elif file_extension == ".pdf":
                         extractor = PdfExtractor(file_path)
                     elif file_extension in {".md", ".markdown"}:
@@ -149,7 +149,7 @@ class ExtractProcessor:
                     elif file_extension == ".docx":
                         extractor = WordExtractor(file_path, upload_file.tenant_id, upload_file.created_by)
                     elif file_extension == ".csv":
-                        extractor = CSVExtractor(file_path, autodetect_encoding=True)
+                        extractor = CSVExtractor(file_path, file_name=upload_file.name, autodetect_encoding=True)
                     elif file_extension == ".epub":
                         extractor = UnstructuredEpubExtractor(file_path)
                     else:
