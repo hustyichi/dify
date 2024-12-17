@@ -7,7 +7,7 @@ from flask import current_app
 
 from configs import dify_config
 from extensions.storage.base_storage import BaseStorage
-
+from patch.extensions import storage_utils
 
 class LocalFsStorage(BaseStorage):
     """Implementation for local filesystem storage."""
@@ -30,27 +30,25 @@ class LocalFsStorage(BaseStorage):
         filepath = self._build_filepath(filename)
         folder = os.path.dirname(filepath)
         os.makedirs(folder, exist_ok=True)
-        Path(os.path.join(os.getcwd(), filepath)).write_bytes(data)
+        storage_utils.ls_save(filepath, data)  
 
     def load_once(self, filename: str) -> bytes:
         filepath = self._build_filepath(filename)
         if not os.path.exists(filepath):
             raise FileNotFoundError("File not found")
-        return Path(filepath).read_bytes()
+        return storage_utils.ls_load_once(filepath)
 
     def load_stream(self, filename: str) -> Generator:
         filepath = self._build_filepath(filename)
         if not os.path.exists(filepath):
             raise FileNotFoundError("File not found")
-        with open(filepath, "rb") as f:
-            while chunk := f.read(4096):  # Read in chunks of 4KB
-                yield chunk
+        yield storage_utils.ls_load_stream(filename)
 
     def download(self, filename, target_filepath):
         filepath = self._build_filepath(filename)
         if not os.path.exists(filepath):
             raise FileNotFoundError("File not found")
-        shutil.copyfile(filepath, target_filepath)
+        storage_utils.ls_download(filepath, target_filepath)
 
     def exists(self, filename):
         filepath = self._build_filepath(filename)
